@@ -1,0 +1,31 @@
+2025-09-01 14:29:28,353 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 14:29:28,353 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 14:29:28,357 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 14:29:32,368 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 14:29:32,368 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 14:29:32,369 - scripts.data_pipeline - INFO - Processing 13 queries
+2025-09-01 14:29:32,369 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 14:29:32,370 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 14:29:32,370 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 14:29:32,373 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 14:29:33,472 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 14:29:34,012 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 14:29:34,520 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 14:29:35,617 - WDM - INFO - WebDriver version 139.0.7258.154 selected
+2025-09-01 14:29:35,622 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.154/win32/chromedriver-win32.zip
+2025-09-01 14:29:35,623 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.154/win32/chromedriver-win32.zip
+2025-09-01 14:29:36,101 - WDM - INFO - Driver downloading response is 200
+2025-09-01 14:29:38,018 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 14:29:39,417 - WDM - INFO - Driver has been saved in cache [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154]
+2025-09-01 14:29:41,389 - src.scraper.quora_scraper - INFO - Processing query 1/13: What is machine learning and how does it work
+2025-09-01 14:29:41,390 - src.scraper.quora_scraper - INFO - Searching: What is machine learning and how does it work
+2025-09-01 14:30:01,269 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 14:30:13,741 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 74 elements
+2025-09-01 14:30:13,747 - src.scraper.quora_scraper - INFO - Extracted 7 answers for: How does Machine Learning work, and what is its process?...
+2025-09-01 14:30:13,764 - src.scraper.quora_scraper - ERROR - Error saving scraped data: name 'sqlite3' is not defined
+2025-09-01 14:30:19,764 - src.scraper.quora_scraper - INFO - Processing query 2/13: Best programming languages for beginners 2024
+2025-09-01 14:30:19,765 - src.scraper.quora_scraper - INFO - Searching: Best programming languages for beginners 2024
+2025-09-01 14:30:25,032 - src.scraper.quora_scraper - ERROR - Error scraping query 'Best programming languages for beginners 2024': ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-01 14:30:25,032 - src.scraper.quora_scraper - WARNING - No data scraped for query: Best programming languages for beginners 2024
+2025-09-01 14:30:31,033 - src.scraper.quora_scraper - INFO - Processing query 3/13: How does artificial intelligence impact jobs
+2025-09-01 14:30:31,033 - src.scraper.quora_scraper - INFO - Searching: How does artificial intelligence impact jobs

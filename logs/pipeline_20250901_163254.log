@@ -1,0 +1,183 @@
+2025-09-01 16:32:55,356 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 16:32:55,376 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 16:32:55,382 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 16:32:59,128 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 16:32:59,129 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 16:32:59,130 - scripts.data_pipeline - INFO - Processing 180 queries
+2025-09-01 16:32:59,130 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 16:32:59,130 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 16:32:59,131 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 16:32:59,133 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 16:33:00,155 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 16:33:00,642 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 16:33:01,136 - WDM - INFO - Driver [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-01 16:33:02,279 - src.scraper.quora_scraper - INFO - Processing query 1/180: What is Artificial Intelligence (AI)?
+2025-09-01 16:33:02,280 - src.scraper.quora_scraper - INFO - Searching: What is Artificial Intelligence (AI)?
+2025-09-01 16:33:26,081 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:33:35,474 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 40 elements
+2025-09-01 16:33:35,481 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 14
+2025-09-01 16:33:35,482 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 14
+2025-09-01 16:33:35,484 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 14
+2025-09-01 16:33:35,485 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 14
+2025-09-01 16:33:35,486 - src.scraper.quora_scraper - INFO - Saved question_id 14 with 4 answers
+2025-09-01 16:33:44,947 - src.scraper.quora_scraper - INFO - Processing query 2/180: What is Machine Learning (ML)?
+2025-09-01 16:33:44,947 - src.scraper.quora_scraper - INFO - Searching: What is Machine Learning (ML)?
+2025-09-01 16:34:08,759 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:34:16,683 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 16:34:16,719 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='Answer']': found 0 elements
+2025-09-01 16:34:16,752 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='content']': found 15 elements
+2025-09-01 16:34:16,794 - src.scraper.quora_scraper - INFO - Trying selector '.q-box': found 1198 elements
+2025-09-01 16:34:16,934 - src.scraper.quora_scraper - INFO - Saved question_id 15 with 10 answers
+2025-09-01 16:34:24,379 - src.scraper.quora_scraper - INFO - Processing query 3/180: What is Deep Learning?
+2025-09-01 16:34:24,380 - src.scraper.quora_scraper - INFO - Searching: What is Deep Learning?
+2025-09-01 16:34:47,300 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:34:57,248 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 80 elements
+2025-09-01 16:34:57,255 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 16
+2025-09-01 16:34:57,257 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 16
+2025-09-01 16:34:57,259 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 16
+2025-09-01 16:34:57,260 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 16
+2025-09-01 16:34:57,262 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 16
+2025-09-01 16:34:57,275 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 16
+2025-09-01 16:34:57,275 - src.scraper.quora_scraper - INFO - Saved question_id 16 with 7 answers
+2025-09-01 16:35:07,787 - src.scraper.quora_scraper - INFO - Processing query 4/180: What is Data Science (DS)?
+2025-09-01 16:35:07,787 - src.scraper.quora_scraper - INFO - Searching: What is Data Science (DS)?
+2025-09-01 16:35:32,585 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:35:41,693 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 16:35:41,759 - src.scraper.quora_scraper - INFO - Saved question_id 28 with 6 answers
+2025-09-01 16:35:53,605 - src.scraper.quora_scraper - INFO - Processing query 5/180: What is Natural Language Processing (NLP)?
+2025-09-01 16:35:53,605 - src.scraper.quora_scraper - INFO - Searching: What is Natural Language Processing (NLP)?
+2025-09-01 16:36:15,446 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:36:24,906 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 16:36:24,914 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 16:36:24,916 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 16:36:24,918 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 16:36:24,920 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 16:36:24,921 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 16:36:24,922 - src.scraper.quora_scraper - INFO - Saved question_id 18 with 5 answers
+2025-09-01 16:36:32,281 - src.scraper.quora_scraper - INFO - Processing query 6/180: What is the difference between AI and ML?
+2025-09-01 16:36:32,282 - src.scraper.quora_scraper - INFO - Searching: What is the difference between AI and ML?
+2025-09-01 16:36:52,387 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:37:00,423 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 16:37:00,428 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 19
+2025-09-01 16:37:00,429 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 19
+2025-09-01 16:37:00,432 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 19
+2025-09-01 16:37:00,432 - src.scraper.quora_scraper - INFO - Saved question_id 19 with 3 answers
+2025-09-01 16:37:09,708 - src.scraper.quora_scraper - INFO - Processing query 7/180: What is the difference between ML and DL?
+2025-09-01 16:37:09,709 - src.scraper.quora_scraper - INFO - Searching: What is the difference between ML and DL?
+2025-09-01 16:37:35,226 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:37:43,338 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 16:37:43,343 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 16:37:43,344 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 16:37:43,345 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 16:37:43,346 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 16:37:43,348 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 16:37:43,349 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 16:37:43,350 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 16:37:43,351 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 16:37:43,351 - src.scraper.quora_scraper - INFO - Saved question_id 20 with 8 answers
+2025-09-01 16:37:48,999 - src.scraper.quora_scraper - INFO - Processing query 8/180: What is the difference between AI and Data Science?
+2025-09-01 16:37:49,000 - src.scraper.quora_scraper - INFO - Searching: What is the difference between AI and Data Science?
+2025-09-01 16:38:12,125 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:38:20,880 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 16:38:20,886 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 16:38:20,888 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 16:38:20,889 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 16:38:20,891 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 16:38:20,892 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 16:38:20,893 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 16:38:20,894 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 16:38:20,896 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 16:38:20,922 - src.scraper.quora_scraper - INFO - Saved question_id 21 with 10 answers
+2025-09-01 16:38:27,342 - src.scraper.quora_scraper - INFO - Processing query 9/180: What is supervised learning?
+2025-09-01 16:38:27,343 - src.scraper.quora_scraper - INFO - Searching: What is supervised learning?
+2025-09-01 16:38:51,970 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:38:59,522 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 59 elements
+2025-09-01 16:38:59,530 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,531 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,533 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,534 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,536 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,537 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,539 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,541 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,542 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 16:38:59,542 - src.scraper.quora_scraper - INFO - Saved question_id 22 with 9 answers
+2025-09-01 16:39:06,790 - src.scraper.quora_scraper - INFO - Processing query 10/180: What is unsupervised learning?
+2025-09-01 16:39:06,790 - src.scraper.quora_scraper - INFO - Searching: What is unsupervised learning?
+2025-09-01 16:39:30,437 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:39:39,719 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 80 elements
+2025-09-01 16:39:39,729 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 16:39:39,730 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 16:39:39,731 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 16:39:39,733 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 16:39:39,734 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 16:39:39,735 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 16:39:39,747 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 16:39:39,749 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 16:39:39,759 - src.scraper.quora_scraper - INFO - Saved question_id 23 with 10 answers
+2025-09-01 16:39:46,630 - src.scraper.quora_scraper - INFO - Processing query 11/180: What is reinforcement learning?
+2025-09-01 16:39:46,630 - src.scraper.quora_scraper - INFO - Searching: What is reinforcement learning?
+2025-09-01 16:40:08,905 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:40:17,190 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 16:40:17,198 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 16:40:17,199 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 16:40:17,200 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 16:40:17,200 - src.scraper.quora_scraper - INFO - Saved question_id 24 with 3 answers
+2025-09-01 16:40:28,464 - src.scraper.quora_scraper - INFO - Processing query 12/180: What is a neural network?
+2025-09-01 16:40:28,465 - src.scraper.quora_scraper - INFO - Searching: What is a neural network?
+2025-09-01 16:40:50,889 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:40:59,821 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 16:40:59,829 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 25
+2025-09-01 16:40:59,831 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 25
+2025-09-01 16:40:59,832 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 25
+2025-09-01 16:40:59,833 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 25
+2025-09-01 16:40:59,835 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 25
+2025-09-01 16:40:59,836 - src.scraper.quora_scraper - INFO - Saved question_id 25 with 5 answers
+2025-09-01 16:41:09,944 - src.scraper.quora_scraper - INFO - Processing query 13/180: What is Big Data?
+2025-09-01 16:41:09,944 - src.scraper.quora_scraper - INFO - Searching: What is Big Data?
+2025-09-01 16:41:34,181 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:41:42,450 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 16:41:42,457 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 16:41:42,458 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 16:41:42,460 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 16:41:42,461 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 16:41:42,461 - src.scraper.quora_scraper - INFO - Saved question_id 26 with 4 answers
+2025-09-01 16:41:49,084 - src.scraper.quora_scraper - INFO - Processing query 14/180: What is Cloud Computing?
+2025-09-01 16:41:49,084 - src.scraper.quora_scraper - INFO - Searching: What is Cloud Computing?
+2025-09-01 16:42:10,851 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:42:21,735 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 58 elements
+2025-09-01 16:42:21,742 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 27
+2025-09-01 16:42:21,743 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 27
+2025-09-01 16:42:21,744 - src.scraper.quora_scraper - INFO - Saved question_id 27 with 2 answers
+2025-09-01 16:42:30,710 - src.scraper.quora_scraper - INFO - Processing query 15/180: What is Blockchain?
+2025-09-01 16:42:30,710 - src.scraper.quora_scraper - INFO - Searching: What is Blockchain?
+2025-09-01 16:42:53,761 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:43:00,117 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 16:43:00,160 - src.scraper.quora_scraper - INFO - Saved question_id 29 with 3 answers
+2025-09-01 16:43:06,636 - src.scraper.quora_scraper - INFO - Processing query 16/180: What is the Internet of Things (IoT)?
+2025-09-01 16:43:06,636 - src.scraper.quora_scraper - INFO - Searching: What is the Internet of Things (IoT)?
+2025-09-01 16:43:29,170 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:43:36,640 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 16:43:36,727 - src.scraper.quora_scraper - INFO - Saved question_id 30 with 8 answers
+2025-09-01 16:43:41,742 - src.scraper.quora_scraper - INFO - Processing query 17/180: What is Quantum Computing?
+2025-09-01 16:43:41,742 - src.scraper.quora_scraper - INFO - Searching: What is Quantum Computing?
+2025-09-01 16:43:58,401 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 16:47:02,786 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:47:12,769 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 46 elements
+2025-09-01 16:47:12,855 - src.scraper.quora_scraper - INFO - Saved question_id 31 with 8 answers
+2025-09-01 16:47:22,769 - src.scraper.quora_scraper - INFO - Processing query 18/180: What is Computer Vision?
+2025-09-01 16:47:22,769 - src.scraper.quora_scraper - INFO - Searching: What is Computer Vision?
+2025-09-01 16:47:44,135 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:47:53,364 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 16:47:53,409 - src.scraper.quora_scraper - INFO - Saved question_id 32 with 3 answers
+2025-09-01 16:48:04,876 - src.scraper.quora_scraper - INFO - Processing query 19/180: What is Generative AI?
+2025-09-01 16:48:04,876 - src.scraper.quora_scraper - INFO - Searching: What is Generative AI?
+2025-09-01 16:48:26,290 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:48:36,283 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 16:48:36,329 - src.scraper.quora_scraper - INFO - Saved question_id 33 with 3 answers
+2025-09-01 16:48:45,991 - src.scraper.quora_scraper - INFO - Processing query 20/180: What is ChatGPT?
+2025-09-01 16:48:45,991 - src.scraper.quora_scraper - INFO - Searching: What is ChatGPT?
+2025-09-01 16:49:08,024 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:49:17,634 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 71 elements
+2025-09-01 16:49:17,804 - src.scraper.quora_scraper - INFO - Saved question_id 34 with 8 answers
+2025-09-01 16:49:26,739 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/2055f752c6ac99f7ba11b36035e3c4ba

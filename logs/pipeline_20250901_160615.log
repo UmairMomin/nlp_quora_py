@@ -1,0 +1,591 @@
+2025-09-01 16:06:16,683 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 16:06:16,683 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 16:06:16,686 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 16:06:21,016 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 16:06:21,016 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 16:06:21,017 - scripts.data_pipeline - INFO - Processing 180 queries
+2025-09-01 16:06:21,017 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 16:06:21,017 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 16:06:21,018 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 16:06:21,021 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 16:06:22,162 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 16:06:22,652 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 16:06:23,134 - WDM - INFO - Driver [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-01 16:06:24,295 - src.scraper.quora_scraper - INFO - Processing query 1/180: What is Artificial Intelligence (AI)?
+2025-09-01 16:06:24,296 - src.scraper.quora_scraper - INFO - Searching: What is Artificial Intelligence (AI)?
+2025-09-01 16:06:42,911 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:06:57,714 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 406 elements
+2025-09-01 16:06:57,752 - src.scraper.quora_scraper - INFO - Extracted 58 answers for: What is artificial intelligence?...
+2025-09-01 16:06:57,880 - src.scraper.quora_scraper - INFO - Successfully saved question_id 14 with 10 answers
+2025-09-01 16:07:03,881 - src.scraper.quora_scraper - INFO - Processing query 2/180: What is Machine Learning (ML)?
+2025-09-01 16:07:03,881 - src.scraper.quora_scraper - INFO - Searching: What is Machine Learning (ML)?
+2025-09-01 16:07:23,093 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:07:37,847 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 411 elements
+2025-09-01 16:07:37,885 - src.scraper.quora_scraper - INFO - Extracted 60 answers for: What is machine learning?...
+2025-09-01 16:07:38,016 - src.scraper.quora_scraper - INFO - Successfully saved question_id 15 with 10 answers
+2025-09-01 16:07:44,017 - src.scraper.quora_scraper - INFO - Processing query 3/180: What is Deep Learning?
+2025-09-01 16:07:44,018 - src.scraper.quora_scraper - INFO - Searching: What is Deep Learning?
+2025-09-01 16:08:02,067 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:08:14,743 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 137 elements
+2025-09-01 16:08:14,755 - src.scraper.quora_scraper - INFO - Extracted 20 answers for: What's your definition of deep learning, and what are you us...
+2025-09-01 16:08:14,868 - src.scraper.quora_scraper - INFO - Successfully saved question_id 16 with 10 answers
+2025-09-01 16:08:20,869 - src.scraper.quora_scraper - INFO - Processing query 4/180: What is Data Science (DS)?
+2025-09-01 16:08:20,869 - src.scraper.quora_scraper - INFO - Searching: What is Data Science (DS)?
+2025-09-01 16:08:40,101 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:08:53,031 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 224 elements
+2025-09-01 16:08:53,048 - src.scraper.quora_scraper - INFO - Extracted 37 answers for: What is data science? What are the different types of data s...
+2025-09-01 16:08:53,151 - src.scraper.quora_scraper - INFO - Successfully saved question_id 17 with 10 answers
+2025-09-01 16:08:59,152 - src.scraper.quora_scraper - INFO - Processing query 5/180: What is Natural Language Processing (NLP)?
+2025-09-01 16:08:59,152 - src.scraper.quora_scraper - INFO - Searching: What is Natural Language Processing (NLP)?
+2025-09-01 16:09:17,318 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:09:29,923 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 107 elements
+2025-09-01 16:09:29,938 - src.scraper.quora_scraper - INFO - Extracted 14 answers for: What is natural language processing, and what are its applic...
+2025-09-01 16:09:30,049 - src.scraper.quora_scraper - INFO - Successfully saved question_id 18 with 10 answers
+2025-09-01 16:09:36,050 - src.scraper.quora_scraper - INFO - Processing query 6/180: What is the difference between AI and ML?
+2025-09-01 16:09:36,050 - src.scraper.quora_scraper - INFO - Searching: What is the difference between AI and ML?
+2025-09-01 16:09:54,657 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:10:09,690 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 462 elements
+2025-09-01 16:10:09,737 - src.scraper.quora_scraper - INFO - Extracted 73 answers for: What are the main differences between artificial intelligenc...
+2025-09-01 16:10:09,850 - src.scraper.quora_scraper - INFO - Successfully saved question_id 19 with 10 answers
+2025-09-01 16:10:15,851 - src.scraper.quora_scraper - INFO - Processing query 7/180: What is the difference between ML and DL?
+2025-09-01 16:10:15,852 - src.scraper.quora_scraper - INFO - Searching: What is the difference between ML and DL?
+2025-09-01 16:10:33,543 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:10:46,049 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 102 elements
+2025-09-01 16:10:46,056 - src.scraper.quora_scraper - INFO - Extracted 17 answers for: What is the difference between machine learning (ML) and dee...
+2025-09-01 16:10:46,161 - src.scraper.quora_scraper - INFO - Successfully saved question_id 20 with 10 answers
+2025-09-01 16:10:52,161 - src.scraper.quora_scraper - INFO - Processing query 8/180: What is the difference between AI and Data Science?
+2025-09-01 16:10:52,162 - src.scraper.quora_scraper - INFO - Searching: What is the difference between AI and Data Science?
+2025-09-01 16:11:10,847 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:11:23,742 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 234 elements
+2025-09-01 16:11:23,757 - src.scraper.quora_scraper - INFO - Extracted 40 answers for: How does data science differ from machine learning and artif...
+2025-09-01 16:11:23,866 - src.scraper.quora_scraper - INFO - Successfully saved question_id 21 with 10 answers
+2025-09-01 16:11:29,867 - src.scraper.quora_scraper - INFO - Processing query 9/180: What is supervised learning?
+2025-09-01 16:11:29,868 - src.scraper.quora_scraper - INFO - Searching: What is supervised learning?
+2025-09-01 16:11:48,925 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:12:01,618 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 146 elements
+2025-09-01 16:12:01,631 - src.scraper.quora_scraper - INFO - Extracted 23 answers for: What is supervised learning, and how does it work?...
+2025-09-01 16:12:01,757 - src.scraper.quora_scraper - INFO - Successfully saved question_id 22 with 10 answers
+2025-09-01 16:12:07,758 - src.scraper.quora_scraper - INFO - Processing query 10/180: What is unsupervised learning?
+2025-09-01 16:12:07,758 - src.scraper.quora_scraper - INFO - Searching: What is unsupervised learning?
+2025-09-01 16:12:25,960 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:12:38,920 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 134 elements
+2025-09-01 16:12:38,930 - src.scraper.quora_scraper - INFO - Extracted 21 answers for: What is unsupervised learning and its applications in AI?...
+2025-09-01 16:12:39,036 - src.scraper.quora_scraper - INFO - Successfully saved question_id 23 with 10 answers
+2025-09-01 16:12:45,037 - src.scraper.quora_scraper - INFO - Processing query 11/180: What is reinforcement learning?
+2025-09-01 16:12:45,037 - src.scraper.quora_scraper - INFO - Searching: What is reinforcement learning?
+2025-09-01 16:13:02,936 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:13:15,574 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 114 elements
+2025-09-01 16:13:15,584 - src.scraper.quora_scraper - INFO - Extracted 11 answers for: What is reinforcement learning with examples?...
+2025-09-01 16:13:15,671 - src.scraper.quora_scraper - INFO - Successfully saved question_id 24 with 10 answers
+2025-09-01 16:13:21,671 - src.scraper.quora_scraper - INFO - Processing query 12/180: What is a neural network?
+2025-09-01 16:13:21,671 - src.scraper.quora_scraper - INFO - Searching: What is a neural network?
+2025-09-01 16:13:39,032 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:13:52,036 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 176 elements
+2025-09-01 16:13:52,053 - src.scraper.quora_scraper - INFO - Extracted 24 answers for: What is a simple explanation of a neural network to someone ...
+2025-09-01 16:13:52,170 - src.scraper.quora_scraper - INFO - Successfully saved question_id 25 with 10 answers
+2025-09-01 16:13:58,171 - src.scraper.quora_scraper - INFO - Processing query 13/180: What is Big Data?
+2025-09-01 16:13:58,171 - src.scraper.quora_scraper - INFO - Searching: What is Big Data?
+2025-09-01 16:14:15,998 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:14:31,016 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 523 elements
+2025-09-01 16:14:31,051 - src.scraper.quora_scraper - INFO - Extracted 77 answers for: What is big data and what is its use?...
+2025-09-01 16:14:31,153 - src.scraper.quora_scraper - INFO - Successfully saved question_id 26 with 10 answers
+2025-09-01 16:14:37,154 - src.scraper.quora_scraper - INFO - Processing query 14/180: What is Cloud Computing?
+2025-09-01 16:14:37,154 - src.scraper.quora_scraper - INFO - Searching: What is Cloud Computing?
+2025-09-01 16:14:55,525 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 16:15:08,659 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 305 elements
+2025-09-01 16:15:08,679 - src.scraper.quora_scraper - INFO - Extracted 33 answers for: What is cloud computing, and why is it important?...
+2025-09-01 16:15:08,789 - src.scraper.quora_scraper - INFO - Successfully saved question_id 27 with 10 answers
+2025-09-01 16:15:14,790 - src.scraper.quora_scraper - INFO - Processing query 15/180: What is Blockchain?
+2025-09-01 16:15:14,791 - src.scraper.quora_scraper - INFO - Searching: What is Blockchain?
+2025-09-01 16:15:38,155 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is Blockchain?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:15:38,156 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is Blockchain?
+2025-09-01 16:15:44,157 - src.scraper.quora_scraper - INFO - Processing query 16/180: What is the Internet of Things (IoT)?
+2025-09-01 16:15:44,158 - src.scraper.quora_scraper - INFO - Searching: What is the Internet of Things (IoT)?
+2025-09-01 16:16:07,042 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is the Internet of Things (IoT)?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:16:07,044 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is the Internet of Things (IoT)?
+2025-09-01 16:16:13,044 - src.scraper.quora_scraper - INFO - Processing query 17/180: What is Quantum Computing?
+2025-09-01 16:16:13,045 - src.scraper.quora_scraper - INFO - Searching: What is Quantum Computing?
+2025-09-01 16:16:35,769 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is Quantum Computing?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:16:35,770 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is Quantum Computing?
+2025-09-01 16:16:41,771 - src.scraper.quora_scraper - INFO - Processing query 18/180: What is Computer Vision?
+2025-09-01 16:16:41,771 - src.scraper.quora_scraper - INFO - Searching: What is Computer Vision?
+2025-09-01 16:17:04,191 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is Computer Vision?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:17:04,192 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is Computer Vision?
+2025-09-01 16:17:10,193 - src.scraper.quora_scraper - INFO - Processing query 19/180: What is Generative AI?
+2025-09-01 16:17:10,193 - src.scraper.quora_scraper - INFO - Searching: What is Generative AI?
+2025-09-01 16:17:32,589 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is Generative AI?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:17:32,590 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is Generative AI?
+2025-09-01 16:17:38,591 - src.scraper.quora_scraper - INFO - Processing query 20/180: What is ChatGPT?
+2025-09-01 16:17:38,592 - src.scraper.quora_scraper - INFO - Searching: What is ChatGPT?
+2025-09-01 16:18:00,494 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is ChatGPT?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:18:00,496 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is ChatGPT?
+2025-09-01 16:18:06,497 - src.scraper.quora_scraper - INFO - Processing query 21/180: What is the best way to learn Python in 2025?
+2025-09-01 16:18:06,497 - src.scraper.quora_scraper - INFO - Searching: What is the best way to learn Python in 2025?
+2025-09-01 16:18:28,946 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is the best way to learn Python in 2025?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:18:28,947 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is the best way to learn Python in 2025?
+2025-09-01 16:18:34,948 - src.scraper.quora_scraper - INFO - Processing query 22/180: How do I start learning programming as a beginner?
+2025-09-01 16:18:34,948 - src.scraper.quora_scraper - INFO - Searching: How do I start learning programming as a beginner?
+2025-09-01 16:18:57,475 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'How do I start learning programming as a beginner?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:18:57,476 - src.scraper.quora_scraper - WARNING - No data scraped for query: How do I start learning programming as a beginner?
+2025-09-01 16:19:03,477 - src.scraper.quora_scraper - INFO - Processing query 23/180: Which is better: Python or Java?
+2025-09-01 16:19:03,478 - src.scraper.quora_scraper - INFO - Searching: Which is better: Python or Java?
+2025-09-01 16:19:26,199 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'Which is better: Python or Java?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:19:26,201 - src.scraper.quora_scraper - WARNING - No data scraped for query: Which is better: Python or Java?
+2025-09-01 16:19:32,202 - src.scraper.quora_scraper - INFO - Processing query 24/180: How do I become a full-stack developer?
+2025-09-01 16:19:32,202 - src.scraper.quora_scraper - INFO - Searching: How do I become a full-stack developer?
+2025-09-01 16:19:54,114 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'How do I become a full-stack developer?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:19:54,116 - src.scraper.quora_scraper - WARNING - No data scraped for query: How do I become a full-stack developer?
+2025-09-01 16:20:00,116 - src.scraper.quora_scraper - INFO - Processing query 25/180: What is the best roadmap to learn web development?
+2025-09-01 16:20:00,117 - src.scraper.quora_scraper - INFO - Searching: What is the best roadmap to learn web development?
+2025-09-01 16:20:22,588 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is the best roadmap to learn web development?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:20:22,589 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is the best roadmap to learn web development?
+2025-09-01 16:20:28,590 - src.scraper.quora_scraper - INFO - Processing query 26/180: What are the best resources to learn Data Structures and Algorithms?
+2025-09-01 16:20:28,591 - src.scraper.quora_scraper - INFO - Searching: What are the best resources to learn Data Structures and Algorithms?
+2025-09-01 16:20:51,091 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What are the best resources to learn Data Structures and Algorithms?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:20:51,092 - src.scraper.quora_scraper - WARNING - No data scraped for query: What are the best resources to learn Data Structures and Algorithms?
+2025-09-01 16:20:57,093 - src.scraper.quora_scraper - INFO - Processing query 27/180: How do I practice competitive programming?
+2025-09-01 16:20:57,094 - src.scraper.quora_scraper - INFO - Searching: How do I practice competitive programming?
+2025-09-01 16:21:19,741 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'How do I practice competitive programming?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:21:19,743 - src.scraper.quora_scraper - WARNING - No data scraped for query: How do I practice competitive programming?
+2025-09-01 16:21:25,744 - src.scraper.quora_scraper - INFO - Processing query 28/180: What is the difference between frontend and backend development?
+2025-09-01 16:21:25,745 - src.scraper.quora_scraper - INFO - Searching: What is the difference between frontend and backend development?
+2025-09-01 16:21:48,095 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is the difference between frontend and backend development?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:21:48,097 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is the difference between frontend and backend development?
+2025-09-01 16:21:54,097 - src.scraper.quora_scraper - INFO - Processing query 29/180: What are microservices in software development?
+2025-09-01 16:21:54,098 - src.scraper.quora_scraper - INFO - Searching: What are microservices in software development?
+2025-09-01 16:22:16,446 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What are microservices in software development?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:22:16,448 - src.scraper.quora_scraper - WARNING - No data scraped for query: What are microservices in software development?
+2025-09-01 16:22:22,448 - src.scraper.quora_scraper - INFO - Processing query 30/180: What is an API and how does it work?
+2025-09-01 16:22:22,448 - src.scraper.quora_scraper - INFO - Searching: What is an API and how does it work?
+2025-09-01 16:22:45,103 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is an API and how does it work?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:22:45,104 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is an API and how does it work?
+2025-09-01 16:22:51,105 - src.scraper.quora_scraper - INFO - Processing query 31/180: What is REST API?
+2025-09-01 16:22:51,106 - src.scraper.quora_scraper - INFO - Searching: What is REST API?
+2025-09-01 16:23:13,847 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is REST API?': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x17c8de]
+	(No symbol) [0x0x17cc7b]
+	(No symbol) [0x0x1c4ef2]
+	(No symbol) [0x0x1a1464]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 16:23:13,849 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is REST API?
+2025-09-01 16:23:15,440 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/5b16d2a00c9efd2f9977b70c7c3d5ab1

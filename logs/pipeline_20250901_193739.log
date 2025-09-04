@@ -1,0 +1,85 @@
+2025-09-01 19:37:40,653 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 19:37:40,653 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 19:37:40,656 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 19:37:44,981 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 19:37:44,982 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 19:37:44,982 - scripts.data_pipeline - INFO - Processing 180 queries
+2025-09-01 19:37:44,983 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 19:37:44,984 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 19:37:44,984 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 19:37:44,988 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 19:37:46,458 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 19:37:46,983 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 19:37:47,465 - WDM - INFO - Driver [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-01 19:37:49,354 - src.scraper.quora_scraper - INFO - Processing query 1/180: What is Artificial Intelligence (AI)?
+2025-09-01 19:37:49,354 - src.scraper.quora_scraper - INFO - Searching: What is Artificial Intelligence (AI)?
+2025-09-01 19:38:03,998 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is Artificial Intelligence (AI)?': Message: element click intercepted: Element <h3 class="LC20lb MBeuO DKV0Md">...</h3> is not clickable at point (556, 216). Other element would receive the click: <div class="Vwj14"></div>
+  (Session info: chrome=139.0.7258.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x182c20]
+	(No symbol) [0x0x180fda]
+	(No symbol) [0x0x17eb37]
+	(No symbol) [0x0x17ddf4]
+	(No symbol) [0x0x1725b5]
+	(No symbol) [0x0x1a141c]
+	(No symbol) [0x0x172044]
+	(No symbol) [0x0x1a1694]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 19:38:04,000 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is Artificial Intelligence (AI)?
+2025-09-01 19:38:15,525 - src.scraper.quora_scraper - INFO - Processing query 2/180: What is Machine Learning (ML)?
+2025-09-01 19:38:15,526 - src.scraper.quora_scraper - INFO - Searching: What is Machine Learning (ML)?
+2025-09-01 19:38:33,221 - src.scraper.quora_scraper - ERROR - Failed to find search result for 'What is Machine Learning (ML)?': Message: element click intercepted: Element <h3 class="LC20lb MBeuO DKV0Md">...</h3> is not clickable at point (556, 216). Other element would receive the click: <div class="Vwj14"></div>
+  (Session info: chrome=139.0.7258.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x182c20]
+	(No symbol) [0x0x180fda]
+	(No symbol) [0x0x17eb37]
+	(No symbol) [0x0x17ddf4]
+	(No symbol) [0x0x1725b5]
+	(No symbol) [0x0x1a141c]
+	(No symbol) [0x0x172044]
+	(No symbol) [0x0x1a1694]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 19:38:33,223 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is Machine Learning (ML)?
+2025-09-01 19:38:42,850 - src.scraper.quora_scraper - INFO - Processing query 3/180: What is Deep Learning?
+2025-09-01 19:38:42,850 - src.scraper.quora_scraper - INFO - Searching: What is Deep Learning?
+2025-09-01 19:38:51,247 - src.scraper.quora_scraper - ERROR - Error scraping query 'What is Deep Learning?': ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-01 19:38:51,248 - src.scraper.quora_scraper - WARNING - No data scraped for query: What is Deep Learning?

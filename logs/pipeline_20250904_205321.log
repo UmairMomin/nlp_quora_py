@@ -1,0 +1,38 @@
+2025-09-04 20:53:22,953 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-04 20:53:22,955 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-04 20:53:22,956 - src.embeddings.faiss_manager - INFO - Loaded question index from data/databases/question_index.faiss
+2025-09-04 20:53:22,958 - src.embeddings.faiss_manager - INFO - Loaded answer index from data/databases/answer_index.faiss
+2025-09-04 20:53:23,214 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 20:53:26,764 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-04 20:53:50,136 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-04 20:53:50,136 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-04 20:53:50,141 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 20:53:54,265 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-04 20:54:17,285 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-04 20:54:17,285 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-04 20:54:17,289 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 20:54:20,806 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-04 20:54:29,878 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-04 20:54:29,878 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-04 20:54:29,882 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 20:54:33,383 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-04 20:54:34,037 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-04 20:54:34,037 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-04 20:54:34,041 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 20:54:37,011 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-04 20:54:37,013 - scripts.data_pipeline - INFO - ==================================================
+2025-09-04 20:54:37,014 - scripts.data_pipeline - INFO - STARTING INDEX BUILDING PHASE
+2025-09-04 20:54:37,014 - scripts.data_pipeline - INFO - ==================================================
+2025-09-04 20:54:37,057 - src.embeddings.faiss_manager - INFO - Built question index with 141 vectors
+2025-09-04 20:54:37,061 - src.embeddings.faiss_manager - INFO - Built answer index with 1110 vectors
+2025-09-04 20:54:37,064 - src.embeddings.faiss_manager - INFO - Saved question index to data/databases/question_index.faiss
+2025-09-04 20:54:37,069 - src.embeddings.faiss_manager - INFO - Saved answer index to data/databases/answer_index.faiss
+2025-09-04 20:54:37,070 - scripts.data_pipeline - INFO - Index building completed: {'question_index_built': True, 'question_index_size': 141, 'answer_index_built': True, 'answer_index_size': 1110}
+2025-09-04 20:54:52,257 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-04 20:54:52,257 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-04 20:54:52,263 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 20:54:56,158 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-04 20:56:09,323 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-04 20:56:09,324 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-04 20:56:09,330 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 20:56:13,328 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384

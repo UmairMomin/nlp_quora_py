@@ -1,0 +1,56 @@
+2025-09-01 15:05:44,994 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 15:05:44,994 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 15:05:44,998 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 15:05:48,591 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 15:05:48,592 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 15:05:48,592 - scripts.data_pipeline - INFO - Processing 1 queries
+2025-09-01 15:05:48,592 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:05:48,593 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 15:05:48,593 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:05:48,595 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 15:05:49,657 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 15:05:50,196 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 15:05:50,701 - WDM - INFO - Driver [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-01 15:05:51,864 - src.scraper.quora_scraper - INFO - Processing query 1/1: What is machine learning and how does it work
+2025-09-01 15:05:51,865 - src.scraper.quora_scraper - INFO - Searching: What is machine learning and how does it work
+2025-09-01 15:06:11,751 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:06:24,294 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 81 elements
+2025-09-01 15:06:24,301 - src.scraper.quora_scraper - INFO - Extracted 6 answers for: How does Machine Learning work, and what is its process?...
+2025-09-01 15:06:24,303 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:06:24,304 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:06:24,355 - src.scraper.quora_scraper - INFO - Successfully saved question_id 1 with 6 answers
+2025-09-01 15:06:24,355 - scripts.data_pipeline - INFO - Scraping completed: {'successful_scrapes': 1, 'failed_scrapes': 0, 'total_questions': 1, 'total_answers': 6}
+2025-09-01 15:06:26,659 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:06:26,659 - scripts.data_pipeline - INFO - STARTING PREPROCESSING PHASE
+2025-09-01 15:06:26,660 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:06:26,660 - src.preprocessing.nlp_pipeline - INFO - Starting full preprocessing pipeline...
+2025-09-01 15:06:26,691 - src.preprocessing.nlp_pipeline - INFO - Preprocessed 1 questions
+2025-09-01 15:06:26,834 - src.preprocessing.nlp_pipeline - INFO - Preprocessed 6 answers
+2025-09-01 15:06:26,835 - src.preprocessing.nlp_pipeline - INFO - Preprocessing pipeline completed!
+2025-09-01 15:06:26,835 - scripts.data_pipeline - INFO - Preprocessing completed: {'questions_processed': 1, 'answers_processed': 6}
+2025-09-01 15:06:26,835 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:06:26,835 - scripts.data_pipeline - INFO - STARTING EMBEDDING GENERATION PHASE
+2025-09-01 15:06:26,836 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:06:26,836 - scripts.data_pipeline - INFO - Generating question embeddings...
+2025-09-01 15:06:26,844 - src.embeddings.embedding_generator - INFO - Generating embeddings for 1 texts...
+2025-09-01 15:06:26,875 - scripts.data_pipeline - INFO - Generating answer embeddings...
+2025-09-01 15:06:26,948 - src.embeddings.embedding_generator - INFO - Generating embeddings for 6 texts...
+2025-09-01 15:06:27,183 - scripts.data_pipeline - INFO - Embedding generation completed: {'questions_embedded': 1, 'answers_embedded': 6}
+2025-09-01 15:06:27,184 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:06:27,184 - scripts.data_pipeline - INFO - STARTING INDEX BUILDING PHASE
+2025-09-01 15:06:27,184 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:06:27,188 - src.embeddings.faiss_manager - INFO - Built question index with 1 vectors
+2025-09-01 15:06:27,189 - src.embeddings.faiss_manager - INFO - Built answer index with 6 vectors
+2025-09-01 15:06:27,191 - src.embeddings.faiss_manager - INFO - Saved question index to data/databases/question_index.faiss
+2025-09-01 15:06:27,193 - src.embeddings.faiss_manager - INFO - Saved answer index to data/databases/answer_index.faiss
+2025-09-01 15:06:27,193 - scripts.data_pipeline - INFO - Index building completed: {'question_index_built': True, 'question_index_size': 1, 'answer_index_built': True, 'answer_index_size': 6}
+2025-09-01 15:06:27,196 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:06:27,196 - scripts.data_pipeline - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2025-09-01 15:06:27,197 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:06:27,197 - scripts.data_pipeline - INFO - Final Stats: {'total_questions': 1, 'total_answers': 6, 'question_embeddings': 1, 'answer_embeddings': 6, 'avg_answers_per_question': 6.0}
+2025-09-01 15:06:27,216 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 15:06:27,216 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 15:06:27,220 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 15:06:30,186 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 15:06:30,832 - src.embeddings.faiss_manager - INFO - Loaded question index from data/databases/question_index.faiss
+2025-09-01 15:06:30,851 - src.embeddings.faiss_manager - INFO - Loaded answer index from data/databases/answer_index.faiss

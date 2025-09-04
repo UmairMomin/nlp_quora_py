@@ -1,0 +1,15 @@
+2025-09-01 16:29:36,341 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 16:29:36,341 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 16:29:36,344 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 16:29:40,227 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 16:29:40,228 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 16:29:40,228 - scripts.data_pipeline - INFO - Processing 180 queries
+2025-09-01 16:29:40,229 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 16:29:40,229 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 16:29:40,229 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 16:29:40,232 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 16:29:41,236 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 16:29:41,722 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 16:29:42,208 - WDM - INFO - Driver [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-01 16:29:45,555 - scripts.data_pipeline - ERROR - Pipeline failed: EnhancedQuoraScraper.scrape_multiple_queries() got an unexpected keyword argument 'delay_between_queries'
+2025-09-01 16:29:45,556 - root - ERROR - Pipeline execution failed: EnhancedQuoraScraper.scrape_multiple_queries() got an unexpected keyword argument 'delay_between_queries'

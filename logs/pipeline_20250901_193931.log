@@ -1,0 +1,1359 @@
+2025-09-01 19:39:32,157 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 19:39:32,157 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 19:39:32,160 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 19:39:35,696 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 19:39:35,698 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 19:39:35,698 - scripts.data_pipeline - INFO - Processing 180 queries
+2025-09-01 19:39:35,698 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 19:39:35,698 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 19:39:35,699 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 19:39:35,701 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 19:39:36,733 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 19:39:37,238 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 19:39:37,727 - WDM - INFO - Driver [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-01 19:39:38,881 - src.scraper.quora_scraper - INFO - Processing query 1/180: What is Artificial Intelligence (AI)?
+2025-09-01 19:39:38,881 - src.scraper.quora_scraper - INFO - Searching: What is Artificial Intelligence (AI)?
+2025-09-01 19:40:05,063 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:40:13,858 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 56 elements
+2025-09-01 19:40:13,930 - src.scraper.quora_scraper - INFO - Saved question_id 35 with 7 answers
+2025-09-01 19:40:21,908 - src.scraper.quora_scraper - INFO - Processing query 2/180: What is Machine Learning (ML)?
+2025-09-01 19:40:21,908 - src.scraper.quora_scraper - INFO - Searching: What is Machine Learning (ML)?
+2025-09-01 19:40:45,635 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:40:54,048 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 55 elements
+2025-09-01 19:40:54,142 - src.scraper.quora_scraper - INFO - Saved question_id 36 with 7 answers
+2025-09-01 19:41:00,361 - src.scraper.quora_scraper - INFO - Processing query 3/180: What is Deep Learning?
+2025-09-01 19:41:00,362 - src.scraper.quora_scraper - INFO - Searching: What is Deep Learning?
+2025-09-01 19:41:22,809 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:41:31,796 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 19:41:31,863 - src.scraper.quora_scraper - INFO - Saved question_id 37 with 4 answers
+2025-09-01 19:41:43,050 - src.scraper.quora_scraper - INFO - Processing query 4/180: What is Data Science (DS)?
+2025-09-01 19:41:43,051 - src.scraper.quora_scraper - INFO - Searching: What is Data Science (DS)?
+2025-09-01 19:42:06,012 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:42:16,024 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 19:42:16,099 - src.scraper.quora_scraper - INFO - Saved question_id 38 with 6 answers
+2025-09-01 19:42:22,689 - src.scraper.quora_scraper - INFO - Processing query 5/180: What is Natural Language Processing (NLP)?
+2025-09-01 19:42:22,690 - src.scraper.quora_scraper - INFO - Searching: What is Natural Language Processing (NLP)?
+2025-09-01 19:42:45,501 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:42:53,584 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 19:42:53,590 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 19:42:53,592 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 19:42:53,593 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 19:42:53,594 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 19:42:53,595 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 19:42:53,595 - src.scraper.quora_scraper - INFO - Saved question_id 18 with 5 answers
+2025-09-01 19:43:03,117 - src.scraper.quora_scraper - INFO - Processing query 6/180: What is the difference between AI and ML?
+2025-09-01 19:43:03,117 - src.scraper.quora_scraper - INFO - Searching: What is the difference between AI and ML?
+2025-09-01 19:43:27,063 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:43:35,910 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 19:43:36,015 - src.scraper.quora_scraper - INFO - Saved question_id 39 with 10 answers
+2025-09-01 19:43:42,839 - src.scraper.quora_scraper - INFO - Processing query 7/180: What is the difference between ML and DL?
+2025-09-01 19:43:42,840 - src.scraper.quora_scraper - INFO - Searching: What is the difference between ML and DL?
+2025-09-01 19:44:06,648 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:44:16,586 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 19:44:16,606 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 19:44:16,607 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 19:44:16,620 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 19:44:16,622 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 19:44:16,623 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 19:44:16,624 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 19:44:16,624 - src.scraper.quora_scraper - INFO - Saved question_id 20 with 8 answers
+2025-09-01 19:44:25,803 - src.scraper.quora_scraper - INFO - Processing query 8/180: What is the difference between AI and Data Science?
+2025-09-01 19:44:25,803 - src.scraper.quora_scraper - INFO - Searching: What is the difference between AI and Data Science?
+2025-09-01 19:44:47,680 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:44:56,760 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 19:44:56,768 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,769 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,771 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,772 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,773 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,774 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,775 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,776 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,778 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,779 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 19:44:56,779 - src.scraper.quora_scraper - INFO - Saved question_id 21 with 10 answers
+2025-09-01 19:45:07,107 - src.scraper.quora_scraper - INFO - Processing query 9/180: What is supervised learning?
+2025-09-01 19:45:07,107 - src.scraper.quora_scraper - INFO - Searching: What is supervised learning?
+2025-09-01 19:45:48,495 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:45:57,334 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 59 elements
+2025-09-01 19:45:57,340 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 19:45:57,341 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 19:45:57,342 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 19:45:57,352 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 19:45:57,367 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 19:45:57,368 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 19:45:57,371 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 19:45:57,371 - src.scraper.quora_scraper - INFO - Saved question_id 22 with 9 answers
+2025-09-01 19:46:03,758 - src.scraper.quora_scraper - INFO - Processing query 10/180: What is unsupervised learning?
+2025-09-01 19:46:03,759 - src.scraper.quora_scraper - INFO - Searching: What is unsupervised learning?
+2025-09-01 19:46:31,190 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:46:41,523 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 51 elements
+2025-09-01 19:46:41,530 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 19:46:41,532 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 19:46:41,533 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 19:46:41,534 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 19:46:41,535 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 19:46:41,536 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 19:46:41,537 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 19:46:41,537 - src.scraper.quora_scraper - INFO - Saved question_id 23 with 7 answers
+2025-09-01 19:46:48,805 - src.scraper.quora_scraper - INFO - Processing query 11/180: What is reinforcement learning?
+2025-09-01 19:46:48,805 - src.scraper.quora_scraper - INFO - Searching: What is reinforcement learning?
+2025-09-01 19:47:11,866 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:47:20,785 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 19:47:20,791 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 19:47:20,802 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 19:47:20,802 - src.scraper.quora_scraper - INFO - Saved question_id 24 with 3 answers
+2025-09-01 19:47:32,384 - src.scraper.quora_scraper - INFO - Processing query 12/180: What is a neural network?
+2025-09-01 19:47:32,385 - src.scraper.quora_scraper - INFO - Searching: What is a neural network?
+2025-09-01 19:47:55,095 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:48:02,325 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 19:48:02,354 - src.scraper.quora_scraper - INFO - Saved question_id 40 with 2 answers
+2025-09-01 19:48:11,622 - src.scraper.quora_scraper - INFO - Processing query 13/180: What is Big Data?
+2025-09-01 19:48:11,622 - src.scraper.quora_scraper - INFO - Searching: What is Big Data?
+2025-09-01 19:48:35,224 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:48:45,667 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 19:48:45,675 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 19:48:45,676 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 19:48:45,677 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 19:48:45,679 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 19:48:45,679 - src.scraper.quora_scraper - INFO - Saved question_id 26 with 4 answers
+2025-09-01 19:48:53,825 - src.scraper.quora_scraper - INFO - Processing query 14/180: What is Cloud Computing?
+2025-09-01 19:48:53,825 - src.scraper.quora_scraper - INFO - Searching: What is Cloud Computing?
+2025-09-01 19:49:19,470 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:49:26,604 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 58 elements
+2025-09-01 19:49:26,609 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 27
+2025-09-01 19:49:26,610 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 27
+2025-09-01 19:49:26,611 - src.scraper.quora_scraper - INFO - Saved question_id 27 with 2 answers
+2025-09-01 19:49:34,854 - src.scraper.quora_scraper - INFO - Processing query 15/180: What is Blockchain?
+2025-09-01 19:49:34,854 - src.scraper.quora_scraper - INFO - Searching: What is Blockchain?
+2025-09-01 19:49:51,452 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 19:50:52,371 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:51:01,997 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 60 elements
+2025-09-01 19:51:02,059 - src.scraper.quora_scraper - INFO - Saved question_id 41 with 6 answers
+2025-09-01 19:51:07,485 - src.scraper.quora_scraper - INFO - Processing query 16/180: What is the Internet of Things (IoT)?
+2025-09-01 19:51:07,485 - src.scraper.quora_scraper - INFO - Searching: What is the Internet of Things (IoT)?
+2025-09-01 19:51:32,031 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:51:40,352 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 19:51:40,358 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 19:51:40,360 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 19:51:40,361 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 19:51:40,362 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 19:51:40,363 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 19:51:40,364 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 19:51:40,364 - src.scraper.quora_scraper - INFO - Saved question_id 30 with 6 answers
+2025-09-01 19:51:49,357 - src.scraper.quora_scraper - INFO - Processing query 17/180: What is Quantum Computing?
+2025-09-01 19:51:49,357 - src.scraper.quora_scraper - INFO - Searching: What is Quantum Computing?
+2025-09-01 19:52:14,356 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:52:23,341 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 56 elements
+2025-09-01 19:52:23,463 - src.scraper.quora_scraper - INFO - Saved question_id 42 with 10 answers
+2025-09-01 19:52:33,872 - src.scraper.quora_scraper - INFO - Processing query 18/180: What is Computer Vision?
+2025-09-01 19:52:33,873 - src.scraper.quora_scraper - INFO - Searching: What is Computer Vision?
+2025-09-01 19:52:55,966 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:53:03,502 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 39 elements
+2025-09-01 19:53:03,541 - src.scraper.quora_scraper - INFO - Saved question_id 43 with 2 answers
+2025-09-01 19:53:09,426 - src.scraper.quora_scraper - INFO - Processing query 19/180: What is Generative AI?
+2025-09-01 19:53:09,426 - src.scraper.quora_scraper - INFO - Searching: What is Generative AI?
+2025-09-01 19:53:34,224 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:53:42,900 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 19:53:42,908 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 33
+2025-09-01 19:53:42,919 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 33
+2025-09-01 19:53:42,920 - src.scraper.quora_scraper - INFO - Saved question_id 33 with 3 answers
+2025-09-01 19:53:49,594 - src.scraper.quora_scraper - INFO - Processing query 20/180: What is ChatGPT?
+2025-09-01 19:53:49,595 - src.scraper.quora_scraper - INFO - Searching: What is ChatGPT?
+2025-09-01 19:54:12,374 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:54:19,404 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 63 elements
+2025-09-01 19:54:19,462 - src.scraper.quora_scraper - INFO - Saved question_id 44 with 5 answers
+2025-09-01 19:54:28,394 - src.scraper.quora_scraper - INFO - Processing query 21/180: What is the best way to learn Python in 2025?
+2025-09-01 19:54:28,395 - src.scraper.quora_scraper - INFO - Searching: What is the best way to learn Python in 2025?
+2025-09-01 19:54:53,053 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:55:01,180 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 19:55:01,282 - src.scraper.quora_scraper - INFO - Saved question_id 45 with 8 answers
+2025-09-01 19:55:11,988 - src.scraper.quora_scraper - INFO - Processing query 22/180: How do I start learning programming as a beginner?
+2025-09-01 19:55:11,988 - src.scraper.quora_scraper - INFO - Searching: How do I start learning programming as a beginner?
+2025-09-01 19:55:34,959 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:55:42,598 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 43 elements
+2025-09-01 19:55:42,634 - src.scraper.quora_scraper - INFO - Saved question_id 46 with 2 answers
+2025-09-01 19:55:53,082 - src.scraper.quora_scraper - INFO - Processing query 23/180: Which is better: Python or Java?
+2025-09-01 19:55:53,082 - src.scraper.quora_scraper - INFO - Searching: Which is better: Python or Java?
+2025-09-01 19:56:17,231 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:56:25,928 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 19:56:25,936 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 4
+2025-09-01 19:56:25,937 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 4
+2025-09-01 19:56:25,938 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 4
+2025-09-01 19:56:25,940 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 4
+2025-09-01 19:56:25,940 - src.scraper.quora_scraper - INFO - Saved question_id 4 with 4 answers
+2025-09-01 19:56:33,829 - src.scraper.quora_scraper - INFO - Processing query 24/180: How do I become a full-stack developer?
+2025-09-01 19:56:33,829 - src.scraper.quora_scraper - INFO - Searching: How do I become a full-stack developer?
+2025-09-01 19:56:57,208 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 19:57:04,951 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 58 elements
+2025-09-01 19:57:04,984 - src.scraper.quora_scraper - INFO - Saved question_id 47 with 2 answers
+2025-09-01 19:57:13,860 - src.scraper.quora_scraper - INFO - Processing query 25/180: What is the best roadmap to learn web development?
+2025-09-01 19:57:13,860 - src.scraper.quora_scraper - INFO - Searching: What is the best roadmap to learn web development?
+2025-09-01 19:57:29,361 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 20:01:12,700 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:01:21,100 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 60 elements
+2025-09-01 20:01:21,164 - src.scraper.quora_scraper - INFO - Saved question_id 48 with 5 answers
+2025-09-01 20:01:29,082 - src.scraper.quora_scraper - INFO - Processing query 26/180: What are the best resources to learn Data Structures and Algorithms?
+2025-09-01 20:01:29,082 - src.scraper.quora_scraper - INFO - Searching: What are the best resources to learn Data Structures and Algorithms?
+2025-09-01 20:01:52,800 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:02:00,455 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 63 elements
+2025-09-01 20:02:00,517 - src.scraper.quora_scraper - INFO - Saved question_id 49 with 5 answers
+2025-09-01 20:02:05,671 - src.scraper.quora_scraper - INFO - Processing query 27/180: How do I practice competitive programming?
+2025-09-01 20:02:05,672 - src.scraper.quora_scraper - INFO - Searching: How do I practice competitive programming?
+2025-09-01 20:02:28,437 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:02:37,723 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 20:02:37,785 - src.scraper.quora_scraper - INFO - Saved question_id 50 with 6 answers
+2025-09-01 20:02:49,437 - src.scraper.quora_scraper - INFO - Processing query 28/180: What is the difference between frontend and backend development?
+2025-09-01 20:02:49,438 - src.scraper.quora_scraper - INFO - Searching: What is the difference between frontend and backend development?
+2025-09-01 20:03:12,056 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:03:20,416 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 20:03:20,468 - src.scraper.quora_scraper - INFO - Saved question_id 51 with 4 answers
+2025-09-01 20:03:28,553 - src.scraper.quora_scraper - INFO - Processing query 29/180: What are microservices in software development?
+2025-09-01 20:03:28,554 - src.scraper.quora_scraper - INFO - Searching: What are microservices in software development?
+2025-09-01 20:03:52,941 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:04:03,553 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 51 elements
+2025-09-01 20:04:03,615 - src.scraper.quora_scraper - INFO - Saved question_id 52 with 6 answers
+2025-09-01 20:04:10,609 - src.scraper.quora_scraper - INFO - Processing query 30/180: What is an API and how does it work?
+2025-09-01 20:04:10,609 - src.scraper.quora_scraper - INFO - Searching: What is an API and how does it work?
+2025-09-01 20:04:31,114 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:04:41,084 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 20:04:41,163 - src.scraper.quora_scraper - INFO - Saved question_id 53 with 5 answers
+2025-09-01 20:04:49,760 - src.scraper.quora_scraper - INFO - Processing query 31/180: What is REST API?
+2025-09-01 20:04:49,760 - src.scraper.quora_scraper - INFO - Searching: What is REST API?
+2025-09-01 20:05:12,843 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:05:21,494 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 20:05:21,538 - src.scraper.quora_scraper - INFO - Saved question_id 54 with 3 answers
+2025-09-01 20:05:26,846 - src.scraper.quora_scraper - INFO - Processing query 32/180: What is GraphQL?
+2025-09-01 20:05:26,846 - src.scraper.quora_scraper - INFO - Searching: What is GraphQL?
+2025-09-01 20:05:48,249 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:05:56,244 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 55 elements
+2025-09-01 20:05:56,320 - src.scraper.quora_scraper - INFO - Saved question_id 55 with 6 answers
+2025-09-01 20:06:08,125 - src.scraper.quora_scraper - INFO - Processing query 33/180: What are the most popular programming languages in 2025?
+2025-09-01 20:06:08,125 - src.scraper.quora_scraper - INFO - Searching: What are the most popular programming languages in 2025?
+2025-09-01 20:06:31,406 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:06:39,114 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 20:06:39,230 - src.scraper.quora_scraper - INFO - Saved question_id 56 with 10 answers
+2025-09-01 20:06:46,194 - src.scraper.quora_scraper - INFO - Processing query 34/180: What is version control (Git)?
+2025-09-01 20:06:46,194 - src.scraper.quora_scraper - INFO - Searching: What is version control (Git)?
+2025-09-01 20:07:09,103 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:07:14,860 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 80 elements
+2025-09-01 20:07:14,975 - src.scraper.quora_scraper - INFO - Saved question_id 57 with 10 answers
+2025-09-01 20:07:25,834 - src.scraper.quora_scraper - INFO - Processing query 35/180: How do I contribute to open-source projects?
+2025-09-01 20:07:25,834 - src.scraper.quora_scraper - INFO - Searching: How do I contribute to open-source projects?
+2025-09-01 20:07:48,524 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:07:56,936 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 51 elements
+2025-09-01 20:07:57,006 - src.scraper.quora_scraper - INFO - Saved question_id 58 with 5 answers
+2025-09-01 20:08:04,732 - src.scraper.quora_scraper - INFO - Processing query 36/180: What is Docker and why is it used?
+2025-09-01 20:08:04,732 - src.scraper.quora_scraper - INFO - Searching: What is Docker and why is it used?
+2025-09-01 20:08:29,652 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:08:39,921 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 51 elements
+2025-09-01 20:08:39,986 - src.scraper.quora_scraper - INFO - Saved question_id 59 with 4 answers
+2025-09-01 20:08:46,810 - src.scraper.quora_scraper - INFO - Processing query 37/180: What is Kubernetes?
+2025-09-01 20:08:46,811 - src.scraper.quora_scraper - INFO - Searching: What is Kubernetes?
+2025-09-01 20:09:08,455 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:09:15,904 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 51 elements
+2025-09-01 20:09:16,004 - src.scraper.quora_scraper - INFO - Saved question_id 60 with 8 answers
+2025-09-01 20:09:26,581 - src.scraper.quora_scraper - INFO - Processing query 38/180: How do I host a website for free?
+2025-09-01 20:09:26,581 - src.scraper.quora_scraper - INFO - Searching: How do I host a website for free?
+2025-09-01 20:09:48,515 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:09:56,861 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 20:09:56,975 - src.scraper.quora_scraper - INFO - Saved question_id 61 with 10 answers
+2025-09-01 20:10:04,610 - src.scraper.quora_scraper - INFO - Processing query 39/180: What is serverless computing?
+2025-09-01 20:10:04,611 - src.scraper.quora_scraper - INFO - Searching: What is serverless computing?
+2025-09-01 20:10:29,283 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:10:37,994 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 20:10:38,056 - src.scraper.quora_scraper - INFO - Saved question_id 62 with 6 answers
+2025-09-01 20:10:47,413 - src.scraper.quora_scraper - INFO - Processing query 40/180: Which are the highest-paying jobs in India?
+2025-09-01 20:10:47,413 - src.scraper.quora_scraper - INFO - Searching: Which are the highest-paying jobs in India?
+2025-09-01 20:11:11,172 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:11:18,282 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 20:11:18,326 - src.scraper.quora_scraper - INFO - Saved question_id 63 with 4 answers
+2025-09-01 20:11:25,944 - src.scraper.quora_scraper - INFO - Processing query 41/180: How do I prepare for campus placements effectively?
+2025-09-01 20:11:25,944 - src.scraper.quora_scraper - INFO - Searching: How do I prepare for campus placements effectively?
+2025-09-01 20:11:47,980 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:11:58,005 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 20:11:58,047 - src.scraper.quora_scraper - INFO - Saved question_id 64 with 3 answers
+2025-09-01 20:12:06,038 - src.scraper.quora_scraper - INFO - Processing query 42/180: Is an MBA worth it in 2025?
+2025-09-01 20:12:06,038 - src.scraper.quora_scraper - INFO - Searching: Is an MBA worth it in 2025?
+2025-09-01 20:12:29,877 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:12:38,395 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 20:12:38,467 - src.scraper.quora_scraper - INFO - Saved question_id 65 with 6 answers
+2025-09-01 20:12:47,578 - src.scraper.quora_scraper - INFO - Processing query 43/180: How do I crack interviews at Google?
+2025-09-01 20:12:47,578 - src.scraper.quora_scraper - INFO - Searching: How do I crack interviews at Google?
+2025-09-01 20:13:10,826 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:13:19,172 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 20:13:19,230 - src.scraper.quora_scraper - INFO - Saved question_id 66 with 5 answers
+2025-09-01 20:13:24,829 - src.scraper.quora_scraper - INFO - Processing query 44/180: What skills should every engineer learn apart from coding?
+2025-09-01 20:13:24,829 - src.scraper.quora_scraper - INFO - Searching: What skills should every engineer learn apart from coding?
+2025-09-01 20:13:47,097 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:13:54,371 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 20:13:54,445 - src.scraper.quora_scraper - INFO - Saved question_id 67 with 6 answers
+2025-09-01 20:14:02,652 - src.scraper.quora_scraper - INFO - Processing query 45/180: How do I write an impressive resume?
+2025-09-01 20:14:02,652 - src.scraper.quora_scraper - INFO - Searching: How do I write an impressive resume?
+2025-09-01 20:14:22,706 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:14:30,859 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 20:14:30,951 - src.scraper.quora_scraper - INFO - Saved question_id 68 with 10 answers
+2025-09-01 20:14:38,632 - src.scraper.quora_scraper - INFO - Processing query 46/180: How do I prepare for coding interviews?
+2025-09-01 20:14:38,632 - src.scraper.quora_scraper - INFO - Searching: How do I prepare for coding interviews?
+2025-09-01 20:15:00,267 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:15:07,625 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 20:15:07,690 - src.scraper.quora_scraper - INFO - Saved question_id 69 with 5 answers
+2025-09-01 20:15:13,583 - src.scraper.quora_scraper - INFO - Processing query 47/180: What are the best websites to practice coding?
+2025-09-01 20:15:13,583 - src.scraper.quora_scraper - INFO - Searching: What are the best websites to practice coding?
+2025-09-01 20:15:38,218 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:15:46,590 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 20:15:46,647 - src.scraper.quora_scraper - INFO - Saved question_id 70 with 4 answers
+2025-09-01 20:15:54,056 - src.scraper.quora_scraper - INFO - Processing query 48/180: What are the top skills in demand in 2025?
+2025-09-01 20:15:54,057 - src.scraper.quora_scraper - INFO - Searching: What are the top skills in demand in 2025?
+2025-09-01 20:16:17,321 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:16:26,809 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 70 elements
+2025-09-01 20:16:26,927 - src.scraper.quora_scraper - INFO - Saved question_id 71 with 10 answers
+2025-09-01 20:16:32,419 - src.scraper.quora_scraper - INFO - Processing query 49/180: How do I switch from a non-technical background to IT?
+2025-09-01 20:16:32,420 - src.scraper.quora_scraper - INFO - Searching: How do I switch from a non-technical background to IT?
+2025-09-01 20:16:53,917 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:17:03,917 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 57 elements
+2025-09-01 20:17:04,021 - src.scraper.quora_scraper - INFO - Saved question_id 72 with 9 answers
+2025-09-01 20:17:10,764 - src.scraper.quora_scraper - INFO - Processing query 50/180: What are the best online learning platforms?
+2025-09-01 20:17:10,765 - src.scraper.quora_scraper - INFO - Searching: What are the best online learning platforms?
+2025-09-01 20:17:31,014 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:17:38,934 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 20:17:39,017 - src.scraper.quora_scraper - INFO - Saved question_id 73 with 7 answers
+2025-09-01 20:17:49,993 - src.scraper.quora_scraper - INFO - Processing query 51/180: Should I pursue a master's degree abroad?
+2025-09-01 20:17:49,993 - src.scraper.quora_scraper - INFO - Searching: Should I pursue a master's degree abroad?
+2025-09-01 20:18:11,835 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:18:20,854 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 20:18:20,963 - src.scraper.quora_scraper - INFO - Saved question_id 74 with 9 answers
+2025-09-01 20:18:31,669 - src.scraper.quora_scraper - INFO - Processing query 52/180: How do I prepare for the GRE?
+2025-09-01 20:18:31,670 - src.scraper.quora_scraper - INFO - Searching: How do I prepare for the GRE?
+2025-09-01 20:18:46,730 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 20:22:28,936 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:22:36,271 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 20:22:36,348 - src.scraper.quora_scraper - INFO - Saved question_id 75 with 6 answers
+2025-09-01 20:22:42,737 - src.scraper.quora_scraper - INFO - Processing query 53/180: How do I prepare for IELTS?
+2025-09-01 20:22:42,738 - src.scraper.quora_scraper - INFO - Searching: How do I prepare for IELTS?
+2025-09-01 20:23:03,596 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:23:12,820 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 20:23:12,852 - src.scraper.quora_scraper - INFO - Saved question_id 76 with 2 answers
+2025-09-01 20:23:18,921 - src.scraper.quora_scraper - INFO - Processing query 54/180: What are the career options after Computer Engineering?
+2025-09-01 20:23:18,921 - src.scraper.quora_scraper - INFO - Searching: What are the career options after Computer Engineering?
+2025-09-01 20:23:38,570 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:23:47,672 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 20:23:47,793 - src.scraper.quora_scraper - INFO - Saved question_id 77 with 10 answers
+2025-09-01 20:23:54,300 - src.scraper.quora_scraper - INFO - Processing query 55/180: What are the best certifications for cloud computing?
+2025-09-01 20:23:54,301 - src.scraper.quora_scraper - INFO - Searching: What are the best certifications for cloud computing?
+2025-09-01 20:24:17,733 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:24:25,516 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 20:24:25,637 - src.scraper.quora_scraper - INFO - Saved question_id 78 with 8 answers
+2025-09-01 20:24:35,545 - src.scraper.quora_scraper - INFO - Processing query 56/180: What are the best certifications for AI and ML?
+2025-09-01 20:24:35,545 - src.scraper.quora_scraper - INFO - Searching: What are the best certifications for AI and ML?
+2025-09-01 20:24:57,698 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:25:04,258 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 20:25:04,372 - src.scraper.quora_scraper - INFO - Saved question_id 79 with 10 answers
+2025-09-01 20:25:13,321 - src.scraper.quora_scraper - INFO - Processing query 57/180: Which universities are best for AI research?
+2025-09-01 20:25:13,321 - src.scraper.quora_scraper - INFO - Searching: Which universities are best for AI research?
+2025-09-01 20:25:37,085 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:25:43,344 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 20:25:43,461 - src.scraper.quora_scraper - INFO - Saved question_id 80 with 10 answers
+2025-09-01 20:25:52,534 - src.scraper.quora_scraper - INFO - Processing query 58/180: What are the future career opportunities in AI?
+2025-09-01 20:25:52,535 - src.scraper.quora_scraper - INFO - Searching: What are the future career opportunities in AI?
+2025-09-01 20:26:15,800 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:26:25,046 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 58 elements
+2025-09-01 20:26:25,135 - src.scraper.quora_scraper - INFO - Saved question_id 81 with 7 answers
+2025-09-01 20:26:33,618 - src.scraper.quora_scraper - INFO - Processing query 59/180: How can I overcome procrastination?
+2025-09-01 20:26:33,619 - src.scraper.quora_scraper - INFO - Searching: How can I overcome procrastination?
+2025-09-01 20:26:54,562 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:27:05,178 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 20:27:05,229 - src.scraper.quora_scraper - INFO - Saved question_id 82 with 4 answers
+2025-09-01 20:27:11,126 - src.scraper.quora_scraper - INFO - Processing query 60/180: What are the best habits for success in life?
+2025-09-01 20:27:11,127 - src.scraper.quora_scraper - INFO - Searching: What are the best habits for success in life?
+2025-09-01 20:27:32,745 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:27:42,477 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 20:27:42,600 - src.scraper.quora_scraper - INFO - Saved question_id 83 with 8 answers
+2025-09-01 20:27:48,004 - src.scraper.quora_scraper - INFO - Processing query 61/180: How do I stay motivated while studying?
+2025-09-01 20:27:48,004 - src.scraper.quora_scraper - INFO - Searching: How do I stay motivated while studying?
+2025-09-01 20:28:09,631 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:28:17,295 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 20:28:17,324 - src.scraper.quora_scraper - INFO - Saved question_id 84 with 1 answers
+2025-09-01 20:28:25,369 - src.scraper.quora_scraper - INFO - Processing query 62/180: What are the best time-management techniques?
+2025-09-01 20:28:25,370 - src.scraper.quora_scraper - INFO - Searching: What are the best time-management techniques?
+2025-09-01 20:28:40,947 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 20:30:04,821 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:30:14,127 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 20:30:14,193 - src.scraper.quora_scraper - INFO - Saved question_id 85 with 6 answers
+2025-09-01 20:30:23,182 - src.scraper.quora_scraper - INFO - Processing query 63/180: How do I build self-discipline?
+2025-09-01 20:30:23,183 - src.scraper.quora_scraper - INFO - Searching: How do I build self-discipline?
+2025-09-01 20:30:46,625 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:30:54,164 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 20:30:54,227 - src.scraper.quora_scraper - INFO - Saved question_id 86 with 6 answers
+2025-09-01 20:31:01,624 - src.scraper.quora_scraper - INFO - Processing query 64/180: What is the best morning routine for productivity?
+2025-09-01 20:31:01,625 - src.scraper.quora_scraper - INFO - Searching: What is the best morning routine for productivity?
+2025-09-01 20:31:26,123 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:31:33,504 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 20:31:33,603 - src.scraper.quora_scraper - INFO - Saved question_id 87 with 9 answers
+2025-09-01 20:31:44,286 - src.scraper.quora_scraper - INFO - Processing query 65/180: How can I improve my focus and concentration?
+2025-09-01 20:31:44,287 - src.scraper.quora_scraper - INFO - Searching: How can I improve my focus and concentration?
+2025-09-01 20:32:08,731 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:32:17,426 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 20:32:17,488 - src.scraper.quora_scraper - INFO - Saved question_id 88 with 5 answers
+2025-09-01 20:32:27,727 - src.scraper.quora_scraper - INFO - Processing query 66/180: What are the benefits of meditation?
+2025-09-01 20:32:27,727 - src.scraper.quora_scraper - INFO - Searching: What are the benefits of meditation?
+2025-09-01 20:32:50,919 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:32:59,638 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 43 elements
+2025-09-01 20:32:59,724 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 11
+2025-09-01 20:32:59,754 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 11
+2025-09-01 20:32:59,756 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 11
+2025-09-01 20:32:59,756 - src.scraper.quora_scraper - INFO - Saved question_id 11 with 4 answers
+2025-09-01 20:33:09,760 - src.scraper.quora_scraper - INFO - Processing query 67/180: How do I set effective goals?
+2025-09-01 20:33:09,761 - src.scraper.quora_scraper - INFO - Searching: How do I set effective goals?
+2025-09-01 20:33:30,765 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:33:40,999 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 20:33:41,080 - src.scraper.quora_scraper - INFO - Saved question_id 89 with 7 answers
+2025-09-01 20:33:46,153 - src.scraper.quora_scraper - INFO - Processing query 68/180: How do I stop being lazy?
+2025-09-01 20:33:46,154 - src.scraper.quora_scraper - INFO - Searching: How do I stop being lazy?
+2025-09-01 20:34:08,104 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:34:17,682 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 20:34:17,725 - src.scraper.quora_scraper - INFO - Saved question_id 90 with 3 answers
+2025-09-01 20:34:28,407 - src.scraper.quora_scraper - INFO - Processing query 69/180: What are the best books on self-improvement?
+2025-09-01 20:34:28,408 - src.scraper.quora_scraper - INFO - Searching: What are the best books on self-improvement?
+2025-09-01 20:34:48,688 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:34:58,787 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 20:34:58,881 - src.scraper.quora_scraper - INFO - Saved question_id 91 with 6 answers
+2025-09-01 20:35:09,025 - src.scraper.quora_scraper - INFO - Processing query 70/180: What is the 80/20 rule in productivity?
+2025-09-01 20:35:09,026 - src.scraper.quora_scraper - INFO - Searching: What is the 80/20 rule in productivity?
+2025-09-01 20:35:34,343 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:35:42,900 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 43 elements
+2025-09-01 20:35:42,983 - src.scraper.quora_scraper - INFO - Saved question_id 92 with 7 answers
+2025-09-01 20:35:51,727 - src.scraper.quora_scraper - INFO - Processing query 71/180: What is the Pomodoro technique?
+2025-09-01 20:35:51,727 - src.scraper.quora_scraper - INFO - Searching: What is the Pomodoro technique?
+2025-09-01 20:36:13,334 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:36:23,945 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 20:36:24,047 - src.scraper.quora_scraper - INFO - Saved question_id 93 with 6 answers
+2025-09-01 20:36:34,699 - src.scraper.quora_scraper - INFO - Processing query 72/180: How do I overcome exam stress?
+2025-09-01 20:36:34,699 - src.scraper.quora_scraper - INFO - Searching: How do I overcome exam stress?
+2025-09-01 20:36:58,419 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:37:09,100 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 20:37:09,231 - src.scraper.quora_scraper - INFO - Saved question_id 94 with 9 answers
+2025-09-01 20:37:16,449 - src.scraper.quora_scraper - INFO - Processing query 73/180: What is growth mindset?
+2025-09-01 20:37:16,449 - src.scraper.quora_scraper - INFO - Searching: What is growth mindset?
+2025-09-01 20:37:32,926 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 20:40:56,597 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:41:03,660 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 68 elements
+2025-09-01 20:41:03,788 - src.scraper.quora_scraper - INFO - Saved question_id 95 with 9 answers
+2025-09-01 20:41:12,084 - src.scraper.quora_scraper - INFO - Processing query 74/180: How do I build confidence in public speaking?
+2025-09-01 20:41:12,084 - src.scraper.quora_scraper - INFO - Searching: How do I build confidence in public speaking?
+2025-09-01 20:41:35,033 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:41:45,605 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 20:41:45,664 - src.scraper.quora_scraper - INFO - Saved question_id 96 with 4 answers
+2025-09-01 20:41:57,529 - src.scraper.quora_scraper - INFO - Processing query 75/180: What are the secrets of highly successful people?
+2025-09-01 20:41:57,530 - src.scraper.quora_scraper - INFO - Searching: What are the secrets of highly successful people?
+2025-09-01 20:42:29,150 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:42:35,451 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 20:42:35,572 - src.scraper.quora_scraper - INFO - Saved question_id 97 with 10 answers
+2025-09-01 20:42:45,584 - src.scraper.quora_scraper - INFO - Processing query 76/180: How do I stop comparing myself with others?
+2025-09-01 20:42:45,585 - src.scraper.quora_scraper - INFO - Searching: How do I stop comparing myself with others?
+2025-09-01 20:43:08,101 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:43:14,688 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 51 elements
+2025-09-01 20:43:14,751 - src.scraper.quora_scraper - INFO - Saved question_id 98 with 6 answers
+2025-09-01 20:43:25,902 - src.scraper.quora_scraper - INFO - Processing query 77/180: How do I build resilience?
+2025-09-01 20:43:25,902 - src.scraper.quora_scraper - INFO - Searching: How do I build resilience?
+2025-09-01 20:43:47,676 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:43:55,240 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 20:43:55,331 - src.scraper.quora_scraper - INFO - Saved question_id 99 with 8 answers
+2025-09-01 20:44:04,624 - src.scraper.quora_scraper - INFO - Processing query 78/180: How do I make new friends as an introvert?
+2025-09-01 20:44:04,624 - src.scraper.quora_scraper - INFO - Searching: How do I make new friends as an introvert?
+2025-09-01 20:44:27,507 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:44:37,076 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 20:44:37,097 - src.scraper.quora_scraper - INFO - Saved question_id 100 with 1 answers
+2025-09-01 20:44:47,335 - src.scraper.quora_scraper - INFO - Processing query 79/180: What are the signs of a healthy relationship?
+2025-09-01 20:44:47,335 - src.scraper.quora_scraper - INFO - Searching: What are the signs of a healthy relationship?
+2025-09-01 20:45:10,682 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:45:18,256 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 39 elements
+2025-09-01 20:45:18,341 - src.scraper.quora_scraper - INFO - Saved question_id 101 with 8 answers
+2025-09-01 20:45:23,643 - src.scraper.quora_scraper - INFO - Processing query 80/180: How can I improve my communication skills?
+2025-09-01 20:45:23,643 - src.scraper.quora_scraper - INFO - Searching: How can I improve my communication skills?
+2025-09-01 20:45:44,490 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:45:52,745 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 20:45:52,781 - src.scraper.quora_scraper - INFO - Saved question_id 102 with 2 answers
+2025-09-01 20:46:03,196 - src.scraper.quora_scraper - INFO - Processing query 81/180: How do I deal with stress and anxiety?
+2025-09-01 20:46:03,197 - src.scraper.quora_scraper - INFO - Searching: How do I deal with stress and anxiety?
+2025-09-01 20:46:26,882 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:46:35,790 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 20:46:35,906 - src.scraper.quora_scraper - INFO - Saved question_id 103 with 10 answers
+2025-09-01 20:46:43,420 - src.scraper.quora_scraper - INFO - Processing query 82/180: What is the best way to develop confidence?
+2025-09-01 20:46:43,420 - src.scraper.quora_scraper - INFO - Searching: What is the best way to develop confidence?
+2025-09-01 20:47:07,837 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:47:17,736 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 20:47:17,874 - src.scraper.quora_scraper - INFO - Saved question_id 104 with 10 answers
+2025-09-01 20:47:28,794 - src.scraper.quora_scraper - INFO - Processing query 83/180: How do I handle failure in life?
+2025-09-01 20:47:28,795 - src.scraper.quora_scraper - INFO - Searching: How do I handle failure in life?
+2025-09-01 20:47:58,874 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 20:48:28,909 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:48:37,109 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 70 elements
+2025-09-01 20:48:37,207 - src.scraper.quora_scraper - INFO - Saved question_id 105 with 9 answers
+2025-09-01 20:48:47,859 - src.scraper.quora_scraper - INFO - Processing query 84/180: What are the qualities of a true friend?
+2025-09-01 20:48:47,859 - src.scraper.quora_scraper - INFO - Searching: What are the qualities of a true friend?
+2025-09-01 20:49:13,364 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:49:23,288 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 20:49:23,416 - src.scraper.quora_scraper - INFO - Saved question_id 106 with 10 answers
+2025-09-01 20:49:29,559 - src.scraper.quora_scraper - INFO - Processing query 85/180: What is emotional intelligence?
+2025-09-01 20:49:29,559 - src.scraper.quora_scraper - INFO - Searching: What is emotional intelligence?
+2025-09-01 20:49:51,916 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:49:59,951 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 20:49:59,982 - src.scraper.quora_scraper - INFO - Saved question_id 107 with 2 answers
+2025-09-01 20:50:11,076 - src.scraper.quora_scraper - INFO - Processing query 86/180: How do I control anger issues?
+2025-09-01 20:50:11,076 - src.scraper.quora_scraper - INFO - Searching: How do I control anger issues?
+2025-09-01 20:50:32,747 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:50:42,497 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 64 elements
+2025-09-01 20:50:42,680 - src.scraper.quora_scraper - INFO - Saved question_id 108 with 10 answers
+2025-09-01 20:50:51,664 - src.scraper.quora_scraper - INFO - Processing query 87/180: What are the best ways to stay happy?
+2025-09-01 20:50:51,664 - src.scraper.quora_scraper - INFO - Searching: What are the best ways to stay happy?
+2025-09-01 20:51:14,868 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:51:22,511 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 43 elements
+2025-09-01 20:51:22,537 - src.scraper.quora_scraper - INFO - Saved question_id 109 with 1 answers
+2025-09-01 20:51:30,938 - src.scraper.quora_scraper - INFO - Processing query 88/180: How do I develop a positive mindset?
+2025-09-01 20:51:30,939 - src.scraper.quora_scraper - INFO - Searching: How do I develop a positive mindset?
+2025-09-01 20:51:55,720 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:52:04,397 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 20:52:04,506 - src.scraper.quora_scraper - INFO - Saved question_id 110 with 10 answers
+2025-09-01 20:52:10,740 - src.scraper.quora_scraper - INFO - Processing query 89/180: What are the benefits of regular exercise?
+2025-09-01 20:52:10,740 - src.scraper.quora_scraper - INFO - Searching: What are the benefits of regular exercise?
+2025-09-01 20:52:32,971 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:52:41,090 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 39 elements
+2025-09-01 20:52:41,215 - src.scraper.quora_scraper - INFO - Saved question_id 111 with 8 answers
+2025-09-01 20:52:47,084 - src.scraper.quora_scraper - INFO - Processing query 90/180: What are the best ways to maintain mental health?
+2025-09-01 20:52:47,085 - src.scraper.quora_scraper - INFO - Searching: What are the best ways to maintain mental health?
+2025-09-01 20:53:11,279 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:53:19,535 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 51 elements
+2025-09-01 20:53:19,653 - src.scraper.quora_scraper - INFO - Saved question_id 112 with 10 answers
+2025-09-01 20:53:28,816 - src.scraper.quora_scraper - INFO - Processing query 91/180: How do I balance work and personal life?
+2025-09-01 20:53:28,816 - src.scraper.quora_scraper - INFO - Searching: How do I balance work and personal life?
+2025-09-01 20:53:49,022 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:53:59,787 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 20:53:59,893 - src.scraper.quora_scraper - INFO - Saved question_id 113 with 9 answers
+2025-09-01 20:54:10,761 - src.scraper.quora_scraper - INFO - Processing query 92/180: What are the most important life skills?
+2025-09-01 20:54:10,765 - src.scraper.quora_scraper - INFO - Searching: What are the most important life skills?
+2025-09-01 20:54:33,596 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:54:44,406 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 20:54:44,507 - src.scraper.quora_scraper - INFO - Saved question_id 114 with 6 answers
+2025-09-01 20:54:50,987 - src.scraper.quora_scraper - INFO - Processing query 93/180: How do I manage financial stress?
+2025-09-01 20:54:50,988 - src.scraper.quora_scraper - INFO - Searching: How do I manage financial stress?
+2025-09-01 20:55:14,607 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:55:22,445 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 61 elements
+2025-09-01 20:55:22,583 - src.scraper.quora_scraper - INFO - Saved question_id 115 with 10 answers
+2025-09-01 20:55:29,840 - src.scraper.quora_scraper - INFO - Processing query 94/180: What are the benefits of journaling?
+2025-09-01 20:55:29,841 - src.scraper.quora_scraper - INFO - Searching: What are the benefits of journaling?
+2025-09-01 20:55:44,596 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 20:58:24,353 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:58:35,388 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 20:58:35,465 - src.scraper.quora_scraper - INFO - Saved question_id 116 with 7 answers
+2025-09-01 20:58:43,795 - src.scraper.quora_scraper - INFO - Processing query 95/180: How do I develop leadership skills?
+2025-09-01 20:58:43,795 - src.scraper.quora_scraper - INFO - Searching: How do I develop leadership skills?
+2025-09-01 20:59:08,255 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 20:59:16,938 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 20:59:17,007 - src.scraper.quora_scraper - INFO - Saved question_id 117 with 8 answers
+2025-09-01 20:59:28,006 - src.scraper.quora_scraper - INFO - Processing query 96/180: What are the best ways to improve emotional health?
+2025-09-01 20:59:28,006 - src.scraper.quora_scraper - INFO - Searching: What are the best ways to improve emotional health?
+2025-09-01 20:59:51,323 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:00:00,333 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 21:00:00,421 - src.scraper.quora_scraper - INFO - Saved question_id 118 with 10 answers
+2025-09-01 21:00:08,732 - src.scraper.quora_scraper - INFO - Processing query 97/180: Which is better: iOS or Android in 2025?
+2025-09-01 21:00:08,732 - src.scraper.quora_scraper - INFO - Searching: Which is better: iOS or Android in 2025?
+2025-09-01 21:00:31,038 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:00:38,321 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 21:00:38,378 - src.scraper.quora_scraper - INFO - Saved question_id 119 with 6 answers
+2025-09-01 21:00:50,023 - src.scraper.quora_scraper - INFO - Processing query 98/180: What are the best books everyone should read at least once?
+2025-09-01 21:00:50,024 - src.scraper.quora_scraper - INFO - Searching: What are the best books everyone should read at least once?
+2025-09-01 21:01:15,945 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:01:25,730 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 21 elements
+2025-09-01 21:01:25,764 - src.scraper.quora_scraper - INFO - Saved question_id 120 with 2 answers
+2025-09-01 21:01:36,335 - src.scraper.quora_scraper - INFO - Processing query 99/180: How will AI affect jobs in the future?
+2025-09-01 21:01:36,335 - src.scraper.quora_scraper - INFO - Searching: How will AI affect jobs in the future?
+2025-09-01 21:02:04,845 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:02:15,414 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 21:02:15,421 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 3
+2025-09-01 21:02:15,422 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 3
+2025-09-01 21:02:15,443 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 3
+2025-09-01 21:02:15,477 - src.scraper.quora_scraper - INFO - Saved question_id 3 with 8 answers
+2025-09-01 21:02:25,209 - src.scraper.quora_scraper - INFO - Processing query 100/180: What are the pros and cons of working from home?
+2025-09-01 21:02:25,209 - src.scraper.quora_scraper - INFO - Searching: What are the pros and cons of working from home?
+2025-09-01 21:02:51,498 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:03:00,767 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 56 elements
+2025-09-01 21:03:00,864 - src.scraper.quora_scraper - INFO - Saved question_id 121 with 10 answers
+2025-09-01 21:03:07,507 - src.scraper.quora_scraper - INFO - Processing query 101/180: How do cryptocurrencies like Bitcoin actually work?
+2025-09-01 21:03:07,507 - src.scraper.quora_scraper - INFO - Searching: How do cryptocurrencies like Bitcoin actually work?
+2025-09-01 21:03:30,602 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:03:38,504 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 51 elements
+2025-09-01 21:03:38,571 - src.scraper.quora_scraper - INFO - Saved question_id 122 with 6 answers
+2025-09-01 21:03:50,541 - src.scraper.quora_scraper - INFO - Processing query 102/180: What is Metaverse?
+2025-09-01 21:03:50,542 - src.scraper.quora_scraper - INFO - Searching: What is Metaverse?
+2025-09-01 21:04:12,459 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:04:19,280 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 21:04:19,367 - src.scraper.quora_scraper - INFO - Saved question_id 123 with 8 answers
+2025-09-01 21:04:27,866 - src.scraper.quora_scraper - INFO - Processing query 103/180: What is Web 3.0?
+2025-09-01 21:04:27,866 - src.scraper.quora_scraper - INFO - Searching: What is Web 3.0?
+2025-09-01 21:04:53,429 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:05:01,965 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 21:05:02,037 - src.scraper.quora_scraper - INFO - Saved question_id 124 with 7 answers
+2025-09-01 21:05:08,980 - src.scraper.quora_scraper - INFO - Processing query 104/180: What are NFTs?
+2025-09-01 21:05:08,980 - src.scraper.quora_scraper - INFO - Searching: What are NFTs?
+2025-09-01 21:05:30,314 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:05:38,846 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 58 elements
+2025-09-01 21:05:38,947 - src.scraper.quora_scraper - INFO - Saved question_id 125 with 8 answers
+2025-09-01 21:05:46,234 - src.scraper.quora_scraper - INFO - Processing query 105/180: What is the future of electric vehicles?
+2025-09-01 21:05:46,235 - src.scraper.quora_scraper - INFO - Searching: What is the future of electric vehicles?
+2025-09-01 21:06:07,431 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:06:14,455 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 21:06:14,530 - src.scraper.quora_scraper - INFO - Saved question_id 126 with 7 answers
+2025-09-01 21:06:24,218 - src.scraper.quora_scraper - INFO - Processing query 106/180: What is the future of renewable energy?
+2025-09-01 21:06:24,218 - src.scraper.quora_scraper - INFO - Searching: What is the future of renewable energy?
+2025-09-01 21:06:49,141 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:06:55,949 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 21:06:56,007 - src.scraper.quora_scraper - INFO - Saved question_id 127 with 6 answers
+2025-09-01 21:07:01,272 - src.scraper.quora_scraper - INFO - Processing query 107/180: What are the effects of climate change?
+2025-09-01 21:07:01,272 - src.scraper.quora_scraper - INFO - Searching: What are the effects of climate change?
+2025-09-01 21:07:22,962 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:07:30,551 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 21:07:30,644 - src.scraper.quora_scraper - INFO - Saved question_id 128 with 10 answers
+2025-09-01 21:07:42,592 - src.scraper.quora_scraper - INFO - Processing query 108/180: What are the best habits to live a healthy life?
+2025-09-01 21:07:42,592 - src.scraper.quora_scraper - INFO - Searching: What are the best habits to live a healthy life?
+2025-09-01 21:08:06,473 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:08:15,429 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 38 elements
+2025-09-01 21:08:15,484 - src.scraper.quora_scraper - INFO - Saved question_id 129 with 4 answers
+2025-09-01 21:08:22,826 - src.scraper.quora_scraper - INFO - Processing query 109/180: What is the impact of social media on youth?
+2025-09-01 21:08:22,826 - src.scraper.quora_scraper - INFO - Searching: What is the impact of social media on youth?
+2025-09-01 21:08:46,053 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:08:53,614 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 46 elements
+2025-09-01 21:08:53,686 - src.scraper.quora_scraper - INFO - Saved question_id 130 with 7 answers
+2025-09-01 21:09:04,297 - src.scraper.quora_scraper - INFO - Processing query 110/180: What are the pros and cons of online education?
+2025-09-01 21:09:04,297 - src.scraper.quora_scraper - INFO - Searching: What are the pros and cons of online education?
+2025-09-01 21:09:28,565 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:09:37,629 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 54 elements
+2025-09-01 21:09:37,696 - src.scraper.quora_scraper - INFO - Saved question_id 131 with 6 answers
+2025-09-01 21:09:45,386 - src.scraper.quora_scraper - INFO - Processing query 111/180: What are the most useful mobile apps in 2025?
+2025-09-01 21:09:45,387 - src.scraper.quora_scraper - INFO - Searching: What are the most useful mobile apps in 2025?
+2025-09-01 21:10:07,814 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:10:17,707 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 30 elements
+2025-09-01 21:10:17,784 - src.scraper.quora_scraper - INFO - Saved question_id 132 with 6 answers
+2025-09-01 21:10:25,740 - src.scraper.quora_scraper - INFO - Processing query 112/180: What are the latest inventions in technology?
+2025-09-01 21:10:25,741 - src.scraper.quora_scraper - INFO - Searching: What are the latest inventions in technology?
+2025-09-01 21:10:49,111 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:10:58,170 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 46 elements
+2025-09-01 21:10:58,262 - src.scraper.quora_scraper - INFO - Saved question_id 133 with 8 answers
+2025-09-01 21:11:04,508 - src.scraper.quora_scraper - INFO - Processing query 113/180: What are the best movies to watch in 2025?
+2025-09-01 21:11:04,508 - src.scraper.quora_scraper - INFO - Searching: What are the best movies to watch in 2025?
+2025-09-01 21:11:28,364 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:11:37,710 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 12 elements
+2025-09-01 21:11:37,733 - src.scraper.quora_scraper - INFO - Saved question_id 134 with 2 answers
+2025-09-01 21:11:45,133 - src.scraper.quora_scraper - INFO - Processing query 114/180: What are the best skills to learn in free time?
+2025-09-01 21:11:45,134 - src.scraper.quora_scraper - INFO - Searching: What are the best skills to learn in free time?
+2025-09-01 21:11:58,831 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 21:15:45,805 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:15:54,627 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 21:15:54,740 - src.scraper.quora_scraper - INFO - Saved question_id 135 with 9 answers
+2025-09-01 21:16:00,465 - src.scraper.quora_scraper - INFO - Processing query 115/180: What are the best documentaries on Netflix?
+2025-09-01 21:16:00,466 - src.scraper.quora_scraper - INFO - Searching: What are the best documentaries on Netflix?
+2025-09-01 21:16:25,022 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:16:33,899 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 67 elements
+2025-09-01 21:16:34,041 - src.scraper.quora_scraper - INFO - Saved question_id 136 with 10 answers
+2025-09-01 21:16:41,282 - src.scraper.quora_scraper - INFO - Processing query 116/180: What is Artificial Intelligence (AI)?
+2025-09-01 21:16:41,282 - src.scraper.quora_scraper - INFO - Searching: What is Artificial Intelligence (AI)?
+2025-09-01 21:17:04,236 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:17:11,379 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 21:17:11,435 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 35
+2025-09-01 21:17:11,437 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 35
+2025-09-01 21:17:11,440 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 35
+2025-09-01 21:17:11,442 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 35
+2025-09-01 21:17:11,444 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 35
+2025-09-01 21:17:11,446 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 35
+2025-09-01 21:17:11,449 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 35
+2025-09-01 21:17:11,450 - src.scraper.quora_scraper - INFO - Saved question_id 35 with 7 answers
+2025-09-01 21:17:22,207 - src.scraper.quora_scraper - INFO - Processing query 117/180: What is Machine Learning (ML)?
+2025-09-01 21:17:22,207 - src.scraper.quora_scraper - INFO - Searching: What is Machine Learning (ML)?
+2025-09-01 21:17:45,168 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:17:53,353 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 56 elements
+2025-09-01 21:17:53,374 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 36
+2025-09-01 21:17:53,402 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 36
+2025-09-01 21:17:53,403 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 36
+2025-09-01 21:17:53,403 - src.scraper.quora_scraper - INFO - Saved question_id 36 with 5 answers
+2025-09-01 21:18:01,376 - src.scraper.quora_scraper - INFO - Processing query 118/180: What is Deep Learning?
+2025-09-01 21:18:01,376 - src.scraper.quora_scraper - INFO - Searching: What is Deep Learning?
+2025-09-01 21:18:25,193 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:18:36,037 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 39 elements
+2025-09-01 21:18:36,043 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 37
+2025-09-01 21:18:36,044 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 37
+2025-09-01 21:18:36,109 - src.scraper.quora_scraper - INFO - Saved question_id 37 with 7 answers
+2025-09-01 21:18:43,755 - src.scraper.quora_scraper - INFO - Processing query 119/180: What is Data Science (DS)?
+2025-09-01 21:18:43,755 - src.scraper.quora_scraper - INFO - Searching: What is Data Science (DS)?
+2025-09-01 21:19:09,421 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:19:18,006 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 59 elements
+2025-09-01 21:19:18,013 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 17
+2025-09-01 21:19:18,014 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 17
+2025-09-01 21:19:18,015 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 17
+2025-09-01 21:19:18,017 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 17
+2025-09-01 21:19:18,017 - src.scraper.quora_scraper - INFO - Saved question_id 17 with 4 answers
+2025-09-01 21:19:25,158 - src.scraper.quora_scraper - INFO - Processing query 120/180: What is Natural Language Processing (NLP)?
+2025-09-01 21:19:25,158 - src.scraper.quora_scraper - INFO - Searching: What is Natural Language Processing (NLP)?
+2025-09-01 21:19:49,975 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:19:57,912 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 21:19:57,917 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 21:19:57,919 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 21:19:57,920 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 21:19:57,921 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 21:19:57,923 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 18
+2025-09-01 21:19:57,923 - src.scraper.quora_scraper - INFO - Saved question_id 18 with 5 answers
+2025-09-01 21:20:06,547 - src.scraper.quora_scraper - INFO - Processing query 121/180: What is the difference between AI and ML?
+2025-09-01 21:20:06,548 - src.scraper.quora_scraper - INFO - Searching: What is the difference between AI and ML?
+2025-09-01 21:20:28,976 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:20:39,088 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 21:20:39,095 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 39
+2025-09-01 21:20:39,096 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 39
+2025-09-01 21:20:39,123 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 39
+2025-09-01 21:20:39,124 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 39
+2025-09-01 21:20:39,125 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 39
+2025-09-01 21:20:39,158 - src.scraper.quora_scraper - INFO - Saved question_id 39 with 10 answers
+2025-09-01 21:20:46,323 - src.scraper.quora_scraper - INFO - Processing query 122/180: What is the difference between ML and DL?
+2025-09-01 21:20:46,323 - src.scraper.quora_scraper - INFO - Searching: What is the difference between ML and DL?
+2025-09-01 21:21:09,541 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:21:19,150 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 47 elements
+2025-09-01 21:21:19,156 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 21:21:19,157 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 21:21:19,159 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 21:21:19,180 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 21:21:19,182 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 21:21:19,183 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 21:21:19,184 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 21:21:19,185 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 20
+2025-09-01 21:21:19,185 - src.scraper.quora_scraper - INFO - Saved question_id 20 with 9 answers
+2025-09-01 21:21:29,400 - src.scraper.quora_scraper - INFO - Processing query 123/180: What is the difference between AI and Data Science?
+2025-09-01 21:21:29,401 - src.scraper.quora_scraper - INFO - Searching: What is the difference between AI and Data Science?
+2025-09-01 21:21:51,762 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:21:56,829 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 21:21:56,836 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,837 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,838 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,839 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,841 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,842 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,843 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,844 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,845 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,846 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 21
+2025-09-01 21:21:56,847 - src.scraper.quora_scraper - INFO - Saved question_id 21 with 10 answers
+2025-09-01 21:22:08,113 - src.scraper.quora_scraper - INFO - Processing query 124/180: What is supervised learning?
+2025-09-01 21:22:08,113 - src.scraper.quora_scraper - INFO - Searching: What is supervised learning?
+2025-09-01 21:22:29,736 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:22:36,506 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 53 elements
+2025-09-01 21:22:36,514 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 21:22:36,516 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 21:22:36,553 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 21:22:36,554 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 21:22:36,555 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 21:22:36,556 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 21:22:36,558 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 21:22:36,559 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 22
+2025-09-01 21:22:36,559 - src.scraper.quora_scraper - INFO - Saved question_id 22 with 10 answers
+2025-09-01 21:22:44,465 - src.scraper.quora_scraper - INFO - Processing query 125/180: What is unsupervised learning?
+2025-09-01 21:22:44,465 - src.scraper.quora_scraper - INFO - Searching: What is unsupervised learning?
+2025-09-01 21:22:59,041 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 21:27:12,649 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:27:19,349 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 21:27:19,355 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 21:27:19,356 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 21:27:19,358 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 21:27:19,360 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 21:27:19,361 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 21:27:19,362 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 21:27:19,364 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 23
+2025-09-01 21:27:19,365 - src.scraper.quora_scraper - INFO - Saved question_id 23 with 7 answers
+2025-09-01 21:27:30,750 - src.scraper.quora_scraper - INFO - Processing query 126/180: What is reinforcement learning?
+2025-09-01 21:27:30,751 - src.scraper.quora_scraper - INFO - Searching: What is reinforcement learning?
+2025-09-01 21:27:52,728 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:28:01,357 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 72 elements
+2025-09-01 21:28:01,370 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 21:28:01,372 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 21:28:01,374 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 21:28:01,375 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 21:28:01,378 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 21:28:01,381 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 21:28:01,396 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 21:28:01,401 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 24
+2025-09-01 21:28:01,402 - src.scraper.quora_scraper - INFO - Saved question_id 24 with 9 answers
+2025-09-01 21:28:07,625 - src.scraper.quora_scraper - INFO - Processing query 127/180: What is a neural network?
+2025-09-01 21:28:07,625 - src.scraper.quora_scraper - INFO - Searching: What is a neural network?
+2025-09-01 21:28:31,599 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:28:40,347 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 21:28:40,378 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 40
+2025-09-01 21:28:40,380 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 40
+2025-09-01 21:28:40,380 - src.scraper.quora_scraper - INFO - Saved question_id 40 with 3 answers
+2025-09-01 21:28:45,446 - src.scraper.quora_scraper - INFO - Processing query 128/180: What is Big Data?
+2025-09-01 21:28:45,446 - src.scraper.quora_scraper - INFO - Searching: What is Big Data?
+2025-09-01 21:29:08,086 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:29:15,677 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 21:29:15,683 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 21:29:15,684 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 21:29:15,685 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 21:29:15,701 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 26
+2025-09-01 21:29:15,702 - src.scraper.quora_scraper - INFO - Saved question_id 26 with 5 answers
+2025-09-01 21:29:25,000 - src.scraper.quora_scraper - INFO - Processing query 129/180: What is Cloud Computing?
+2025-09-01 21:29:25,001 - src.scraper.quora_scraper - INFO - Searching: What is Cloud Computing?
+2025-09-01 21:29:49,249 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:29:56,225 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 58 elements
+2025-09-01 21:29:56,244 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 27
+2025-09-01 21:29:56,246 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 27
+2025-09-01 21:29:56,246 - src.scraper.quora_scraper - INFO - Saved question_id 27 with 3 answers
+2025-09-01 21:30:02,212 - src.scraper.quora_scraper - INFO - Processing query 130/180: What is Blockchain?
+2025-09-01 21:30:02,213 - src.scraper.quora_scraper - INFO - Searching: What is Blockchain?
+2025-09-01 21:30:22,580 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:30:29,385 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 56 elements
+2025-09-01 21:30:29,391 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 29
+2025-09-01 21:30:29,392 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 29
+2025-09-01 21:30:29,393 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 29
+2025-09-01 21:30:29,394 - src.scraper.quora_scraper - INFO - Saved question_id 29 with 3 answers
+2025-09-01 21:30:35,832 - src.scraper.quora_scraper - INFO - Processing query 131/180: What is the Internet of Things (IoT)?
+2025-09-01 21:30:35,832 - src.scraper.quora_scraper - INFO - Searching: What is the Internet of Things (IoT)?
+2025-09-01 21:30:57,077 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:31:04,301 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 21:31:04,306 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 21:31:04,309 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 21:31:04,311 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 21:31:04,312 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 21:31:04,329 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 30
+2025-09-01 21:31:04,329 - src.scraper.quora_scraper - INFO - Saved question_id 30 with 6 answers
+2025-09-01 21:31:09,550 - src.scraper.quora_scraper - INFO - Processing query 132/180: What is Quantum Computing?
+2025-09-01 21:31:09,550 - src.scraper.quora_scraper - INFO - Searching: What is Quantum Computing?
+2025-09-01 21:31:30,938 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:31:42,603 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 21:31:42,609 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,611 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,613 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,615 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,617 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,619 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,621 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,623 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,625 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,627 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 42
+2025-09-01 21:31:42,627 - src.scraper.quora_scraper - INFO - Saved question_id 42 with 10 answers
+2025-09-01 21:31:51,412 - src.scraper.quora_scraper - INFO - Processing query 133/180: What is Computer Vision?
+2025-09-01 21:31:51,412 - src.scraper.quora_scraper - INFO - Searching: What is Computer Vision?
+2025-09-01 21:32:14,488 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:32:22,912 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 21:32:22,922 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 43
+2025-09-01 21:32:22,924 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 43
+2025-09-01 21:32:22,967 - src.scraper.quora_scraper - INFO - Saved question_id 43 with 4 answers
+2025-09-01 21:32:33,193 - src.scraper.quora_scraper - INFO - Processing query 134/180: What is Generative AI?
+2025-09-01 21:32:33,193 - src.scraper.quora_scraper - INFO - Searching: What is Generative AI?
+2025-09-01 21:32:56,502 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:33:04,360 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 21:33:04,369 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 33
+2025-09-01 21:33:04,371 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 33
+2025-09-01 21:33:04,372 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 33
+2025-09-01 21:33:04,372 - src.scraper.quora_scraper - INFO - Saved question_id 33 with 3 answers
+2025-09-01 21:33:12,679 - src.scraper.quora_scraper - INFO - Processing query 135/180: What is ChatGPT?
+2025-09-01 21:33:12,680 - src.scraper.quora_scraper - INFO - Searching: What is ChatGPT?
+2025-09-01 21:33:36,030 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:33:46,821 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 57 elements
+2025-09-01 21:33:46,828 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 44
+2025-09-01 21:33:46,830 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 44
+2025-09-01 21:33:46,833 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 44
+2025-09-01 21:33:46,835 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 44
+2025-09-01 21:33:46,837 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 44
+2025-09-01 21:33:46,837 - src.scraper.quora_scraper - INFO - Saved question_id 44 with 5 answers
+2025-09-01 21:33:58,396 - src.scraper.quora_scraper - INFO - Processing query 136/180: What is the best way to learn Python in 2025?
+2025-09-01 21:33:58,397 - src.scraper.quora_scraper - INFO - Searching: What is the best way to learn Python in 2025?
+2025-09-01 21:34:19,972 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 21:34:49,760 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:34:56,704 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 21:34:56,838 - src.scraper.quora_scraper - INFO - Saved question_id 137 with 8 answers
+2025-09-01 21:35:01,997 - src.scraper.quora_scraper - INFO - Processing query 137/180: How do I start learning programming as a beginner?
+2025-09-01 21:35:01,997 - src.scraper.quora_scraper - INFO - Searching: How do I start learning programming as a beginner?
+2025-09-01 21:35:23,773 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:35:32,143 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 40 elements
+2025-09-01 21:35:32,152 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 46
+2025-09-01 21:35:32,153 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 46
+2025-09-01 21:35:32,154 - src.scraper.quora_scraper - INFO - Saved question_id 46 with 2 answers
+2025-09-01 21:35:44,008 - src.scraper.quora_scraper - INFO - Processing query 138/180: Which is better: Python or Java?
+2025-09-01 21:35:44,008 - src.scraper.quora_scraper - INFO - Searching: Which is better: Python or Java?
+2025-09-01 21:36:08,105 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:36:17,849 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 46 elements
+2025-09-01 21:36:17,854 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 4
+2025-09-01 21:36:17,855 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 4
+2025-09-01 21:36:17,857 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 4
+2025-09-01 21:36:17,858 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 4
+2025-09-01 21:36:17,859 - src.scraper.quora_scraper - INFO - Saved question_id 4 with 4 answers
+2025-09-01 21:36:29,474 - src.scraper.quora_scraper - INFO - Processing query 139/180: How do I become a full-stack developer?
+2025-09-01 21:36:29,474 - src.scraper.quora_scraper - INFO - Searching: How do I become a full-stack developer?
+2025-09-01 21:36:29,711 - src.scraper.quora_scraper - ERROR - Error scraping query 'How do I become a full-stack developer?': Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x2fa8a3+63283]
+	GetHandleVerifier [0x0x2fa8e4+63348]
+	(No symbol) [0x0x133e43]
+	(No symbol) [0x0x13156b]
+	(No symbol) [0x0x124d32]
+	(No symbol) [0x0x126768]
+	(No symbol) [0x0x124fc8]
+	(No symbol) [0x0x124b03]
+	(No symbol) [0x0x124811]
+	(No symbol) [0x0x1227b4]
+	(No symbol) [0x0x12315b]
+	(No symbol) [0x0x13785e]
+	(No symbol) [0x0x1c32e7]
+	(No symbol) [0x0x1a141c]
+	(No symbol) [0x0x1c271a]
+	(No symbol) [0x0x1a1216]
+	(No symbol) [0x0x170855]
+	(No symbol) [0x0x1716f4]
+	GetHandleVerifier [0x0x56bb43+2623955]
+	GetHandleVerifier [0x0x566daa+2604090]
+	GetHandleVerifier [0x0x32069a+218410]
+	GetHandleVerifier [0x0x310ed8+154984]
+	GetHandleVerifier [0x0x31742d+180925]
+	GetHandleVerifier [0x0x3022b8+94536]
+	GetHandleVerifier [0x0x302442+94930]
+	GetHandleVerifier [0x0x2ed5ea+9338]
+	BaseThreadInitThunk [0x0x774ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x778082ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7780827e+238]
+	(No symbol) [0x0]
+
+2025-09-01 21:36:29,715 - src.scraper.quora_scraper - WARNING - No data scraped for query: How do I become a full-stack developer?
+2025-09-01 21:36:34,735 - src.scraper.quora_scraper - INFO - Processing query 140/180: What is the best roadmap to learn web development?
+2025-09-01 21:36:34,736 - src.scraper.quora_scraper - INFO - Searching: What is the best roadmap to learn web development?
+2025-09-01 21:37:00,270 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:37:10,500 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 21:37:10,518 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 48
+2025-09-01 21:37:10,520 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 48
+2025-09-01 21:37:10,521 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 48
+2025-09-01 21:37:10,522 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 48
+2025-09-01 21:37:10,524 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 48
+2025-09-01 21:37:10,525 - src.scraper.quora_scraper - INFO - Saved question_id 48 with 6 answers
+2025-09-01 21:37:16,671 - src.scraper.quora_scraper - INFO - Processing query 141/180: What are the best resources to learn Data Structures and Algorithms?
+2025-09-01 21:37:16,672 - src.scraper.quora_scraper - INFO - Searching: What are the best resources to learn Data Structures and Algorithms?
+2025-09-01 21:37:40,307 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:37:47,930 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 52 elements
+2025-09-01 21:37:47,940 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 49
+2025-09-01 21:37:47,942 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 49
+2025-09-01 21:37:47,948 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 49
+2025-09-01 21:37:47,952 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 49
+2025-09-01 21:37:47,952 - src.scraper.quora_scraper - INFO - Saved question_id 49 with 4 answers
+2025-09-01 21:37:55,627 - src.scraper.quora_scraper - INFO - Processing query 142/180: How do I practice competitive programming?
+2025-09-01 21:37:55,627 - src.scraper.quora_scraper - INFO - Searching: How do I practice competitive programming?
+2025-09-01 21:38:19,565 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:38:27,651 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 21:38:27,661 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 50
+2025-09-01 21:38:27,670 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 50
+2025-09-01 21:38:27,672 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 50
+2025-09-01 21:38:27,673 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 50
+2025-09-01 21:38:27,674 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 50
+2025-09-01 21:38:27,674 - src.scraper.quora_scraper - INFO - Saved question_id 50 with 6 answers
+2025-09-01 21:38:35,884 - src.scraper.quora_scraper - INFO - Processing query 143/180: What is the difference between frontend and backend development?
+2025-09-01 21:38:35,885 - src.scraper.quora_scraper - INFO - Searching: What is the difference between frontend and backend development?
+2025-09-01 21:38:59,472 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:39:08,180 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 21:39:08,184 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 51
+2025-09-01 21:39:08,185 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 51
+2025-09-01 21:39:08,187 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 51
+2025-09-01 21:39:08,188 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 51
+2025-09-01 21:39:08,188 - src.scraper.quora_scraper - INFO - Saved question_id 51 with 4 answers
+2025-09-01 21:39:13,571 - src.scraper.quora_scraper - INFO - Processing query 144/180: What are microservices in software development?
+2025-09-01 21:39:13,571 - src.scraper.quora_scraper - INFO - Searching: What are microservices in software development?
+2025-09-01 21:39:33,709 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:39:42,950 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 21:39:42,956 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 52
+2025-09-01 21:39:42,957 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 52
+2025-09-01 21:39:42,959 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 52
+2025-09-01 21:39:42,998 - src.scraper.quora_scraper - INFO - Saved question_id 52 with 6 answers
+2025-09-01 21:39:48,495 - src.scraper.quora_scraper - INFO - Processing query 145/180: What is an API and how does it work?
+2025-09-01 21:39:48,496 - src.scraper.quora_scraper - INFO - Searching: What is an API and how does it work?
+2025-09-01 21:40:10,087 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:40:18,469 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 21:40:18,476 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 53
+2025-09-01 21:40:18,477 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 53
+2025-09-01 21:40:18,478 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 53
+2025-09-01 21:40:18,480 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 53
+2025-09-01 21:40:18,480 - src.scraper.quora_scraper - INFO - Saved question_id 53 with 4 answers
+2025-09-01 21:40:29,937 - src.scraper.quora_scraper - INFO - Processing query 146/180: What is REST API?
+2025-09-01 21:40:29,937 - src.scraper.quora_scraper - INFO - Searching: What is REST API?
+2025-09-01 21:40:44,157 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 21:42:32,499 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:42:42,588 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 39 elements
+2025-09-01 21:42:42,616 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 54
+2025-09-01 21:42:42,634 - src.scraper.quora_scraper - INFO - Saved question_id 54 with 5 answers
+2025-09-01 21:42:53,927 - src.scraper.quora_scraper - INFO - Processing query 147/180: What is GraphQL?
+2025-09-01 21:42:53,927 - src.scraper.quora_scraper - INFO - Searching: What is GraphQL?
+2025-09-01 21:43:23,829 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:43:30,723 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 49 elements
+2025-09-01 21:43:30,740 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 55
+2025-09-01 21:43:30,741 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 55
+2025-09-01 21:43:30,743 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 55
+2025-09-01 21:43:30,744 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 55
+2025-09-01 21:43:30,771 - src.scraper.quora_scraper - INFO - Saved question_id 55 with 5 answers
+2025-09-01 21:43:35,941 - src.scraper.quora_scraper - INFO - Processing query 148/180: What are the most popular programming languages in 2025?
+2025-09-01 21:43:35,941 - src.scraper.quora_scraper - INFO - Searching: What are the most popular programming languages in 2025?
+2025-09-01 21:43:56,768 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:44:05,958 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 75 elements
+2025-09-01 21:44:05,966 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,967 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,969 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,971 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,972 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,973 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,974 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,990 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,991 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 56
+2025-09-01 21:44:05,991 - src.scraper.quora_scraper - INFO - Saved question_id 56 with 10 answers
+2025-09-01 21:44:14,301 - src.scraper.quora_scraper - INFO - Processing query 149/180: What is version control (Git)?
+2025-09-01 21:44:14,301 - src.scraper.quora_scraper - INFO - Searching: What is version control (Git)?
+2025-09-01 21:44:37,323 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:44:47,003 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 77 elements
+2025-09-01 21:44:47,132 - src.scraper.quora_scraper - INFO - Saved question_id 138 with 10 answers
+2025-09-01 21:44:58,259 - src.scraper.quora_scraper - INFO - Processing query 150/180: How do I contribute to open-source projects?
+2025-09-01 21:44:58,260 - src.scraper.quora_scraper - INFO - Searching: How do I contribute to open-source projects?
+2025-09-01 21:45:28,254 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:45:37,624 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 69 elements
+2025-09-01 21:45:37,746 - src.scraper.quora_scraper - INFO - Saved question_id 139 with 10 answers
+2025-09-01 21:45:48,005 - src.scraper.quora_scraper - INFO - Processing query 151/180: What is Docker and why is it used?
+2025-09-01 21:45:48,006 - src.scraper.quora_scraper - INFO - Searching: What is Docker and why is it used?
+2025-09-01 21:46:09,953 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:46:17,994 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 39 elements
+2025-09-01 21:46:18,002 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 59
+2025-09-01 21:46:18,003 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 59
+2025-09-01 21:46:18,004 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 59
+2025-09-01 21:46:18,005 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 59
+2025-09-01 21:46:18,006 - src.scraper.quora_scraper - INFO - Saved question_id 59 with 4 answers
+2025-09-01 21:46:28,608 - src.scraper.quora_scraper - INFO - Processing query 152/180: What is Kubernetes?
+2025-09-01 21:46:28,608 - src.scraper.quora_scraper - INFO - Searching: What is Kubernetes?
+2025-09-01 21:46:50,773 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:47:01,839 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 79 elements
+2025-09-01 21:47:01,848 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 60
+2025-09-01 21:47:01,849 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 60
+2025-09-01 21:47:01,850 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 60
+2025-09-01 21:47:01,852 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 60
+2025-09-01 21:47:01,853 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 60
+2025-09-01 21:47:01,855 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 60
+2025-09-01 21:47:01,856 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 60
+2025-09-01 21:47:01,858 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 60
+2025-09-01 21:47:01,881 - src.scraper.quora_scraper - INFO - Saved question_id 60 with 10 answers
+2025-09-01 21:47:10,794 - src.scraper.quora_scraper - INFO - Processing query 153/180: How do I host a website for free?
+2025-09-01 21:47:10,794 - src.scraper.quora_scraper - INFO - Searching: How do I host a website for free?
+2025-09-01 21:47:34,093 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:47:44,446 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 79 elements
+2025-09-01 21:47:44,454 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,455 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,456 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,458 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,459 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,460 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,462 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,463 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,465 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,466 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 61
+2025-09-01 21:47:44,467 - src.scraper.quora_scraper - INFO - Saved question_id 61 with 10 answers
+2025-09-01 21:47:56,043 - src.scraper.quora_scraper - INFO - Processing query 154/180: What is serverless computing?
+2025-09-01 21:47:56,044 - src.scraper.quora_scraper - INFO - Searching: What is serverless computing?
+2025-09-01 21:48:24,595 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:48:31,800 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 21:48:31,805 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 62
+2025-09-01 21:48:31,806 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 62
+2025-09-01 21:48:31,808 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 62
+2025-09-01 21:48:31,809 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 62
+2025-09-01 21:48:31,810 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 62
+2025-09-01 21:48:31,811 - src.scraper.quora_scraper - INFO - Saved question_id 62 with 5 answers
+2025-09-01 21:48:43,031 - src.scraper.quora_scraper - INFO - Processing query 155/180: Which are the highest-paying jobs in India?
+2025-09-01 21:48:43,031 - src.scraper.quora_scraper - INFO - Searching: Which are the highest-paying jobs in India?
+2025-09-01 21:49:02,067 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:49:12,405 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 72 elements
+2025-09-01 21:49:12,413 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 63
+2025-09-01 21:49:12,415 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 63
+2025-09-01 21:49:12,417 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 63
+2025-09-01 21:49:12,418 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 63
+2025-09-01 21:49:12,478 - src.scraper.quora_scraper - INFO - Saved question_id 63 with 9 answers
+2025-09-01 21:49:24,450 - src.scraper.quora_scraper - INFO - Processing query 156/180: How do I prepare for campus placements effectively?
+2025-09-01 21:49:24,450 - src.scraper.quora_scraper - INFO - Searching: How do I prepare for campus placements effectively?
+2025-09-01 21:49:46,059 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:49:54,416 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 70 elements
+2025-09-01 21:49:54,426 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 64
+2025-09-01 21:49:54,427 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 64
+2025-09-01 21:49:54,428 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 64
+2025-09-01 21:49:54,448 - src.scraper.quora_scraper - INFO - Saved question_id 64 with 5 answers
+2025-09-01 21:50:03,596 - src.scraper.quora_scraper - INFO - Processing query 157/180: Is an MBA worth it in 2025?
+2025-09-01 21:50:03,596 - src.scraper.quora_scraper - INFO - Searching: Is an MBA worth it in 2025?
+2025-09-01 21:50:17,454 - src.scraper.quora_scraper - WARNING - CAPTCHA detected! Please solve it manually to continue...
+2025-09-01 21:50:40,285 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:50:50,308 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 21:50:50,314 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 65
+2025-09-01 21:50:50,315 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 65
+2025-09-01 21:50:50,316 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 65
+2025-09-01 21:50:50,318 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 65
+2025-09-01 21:50:50,319 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 65
+2025-09-01 21:50:50,320 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 65
+2025-09-01 21:50:50,321 - src.scraper.quora_scraper - INFO - Saved question_id 65 with 6 answers
+2025-09-01 21:51:01,122 - src.scraper.quora_scraper - INFO - Processing query 158/180: How do I crack interviews at Google?
+2025-09-01 21:51:01,123 - src.scraper.quora_scraper - INFO - Searching: How do I crack interviews at Google?
+2025-09-01 21:51:23,167 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:51:30,027 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 75 elements
+2025-09-01 21:51:30,034 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 66
+2025-09-01 21:51:30,035 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 66
+2025-09-01 21:51:30,036 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 66
+2025-09-01 21:51:30,038 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 66
+2025-09-01 21:51:30,106 - src.scraper.quora_scraper - INFO - Saved question_id 66 with 10 answers
+2025-09-01 21:51:35,265 - src.scraper.quora_scraper - INFO - Processing query 159/180: What skills should every engineer learn apart from coding?
+2025-09-01 21:51:35,266 - src.scraper.quora_scraper - INFO - Searching: What skills should every engineer learn apart from coding?
+2025-09-01 21:51:58,310 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:52:05,896 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 39 elements
+2025-09-01 21:52:05,901 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 67
+2025-09-01 21:52:05,902 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 67
+2025-09-01 21:52:05,904 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 67
+2025-09-01 21:52:05,906 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 67
+2025-09-01 21:52:05,922 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 67
+2025-09-01 21:52:05,922 - src.scraper.quora_scraper - INFO - Saved question_id 67 with 6 answers
+2025-09-01 21:52:17,096 - src.scraper.quora_scraper - INFO - Processing query 160/180: How do I write an impressive resume?
+2025-09-01 21:52:17,097 - src.scraper.quora_scraper - INFO - Searching: How do I write an impressive resume?
+2025-09-01 21:52:38,463 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:52:47,902 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 21:52:47,907 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 68
+2025-09-01 21:52:47,909 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 68
+2025-09-01 21:52:47,910 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 68
+2025-09-01 21:52:47,910 - src.scraper.quora_scraper - INFO - Saved question_id 68 with 3 answers
+2025-09-01 21:52:55,848 - src.scraper.quora_scraper - INFO - Processing query 161/180: How do I prepare for coding interviews?
+2025-09-01 21:52:55,849 - src.scraper.quora_scraper - INFO - Searching: How do I prepare for coding interviews?
+2025-09-01 21:53:17,345 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:53:26,054 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 21:53:26,059 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 69
+2025-09-01 21:53:26,060 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 69
+2025-09-01 21:53:26,062 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 69
+2025-09-01 21:53:26,063 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 69
+2025-09-01 21:53:26,064 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 69
+2025-09-01 21:53:26,065 - src.scraper.quora_scraper - INFO - Saved question_id 69 with 5 answers
+2025-09-01 21:53:34,416 - src.scraper.quora_scraper - INFO - Processing query 162/180: What are the best websites to practice coding?
+2025-09-01 21:53:34,417 - src.scraper.quora_scraper - INFO - Searching: What are the best websites to practice coding?
+2025-09-01 21:53:55,550 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:54:03,266 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 77 elements
+2025-09-01 21:54:03,273 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 70
+2025-09-01 21:54:03,274 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 70
+2025-09-01 21:54:03,276 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 70
+2025-09-01 21:54:03,277 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 70
+2025-09-01 21:54:03,347 - src.scraper.quora_scraper - INFO - Saved question_id 70 with 10 answers
+2025-09-01 21:54:11,161 - src.scraper.quora_scraper - INFO - Processing query 163/180: What are the top skills in demand in 2025?
+2025-09-01 21:54:11,162 - src.scraper.quora_scraper - INFO - Searching: What are the top skills in demand in 2025?
+2025-09-01 21:54:33,880 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:54:42,174 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 69 elements
+2025-09-01 21:54:42,182 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,183 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,185 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,186 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,188 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,189 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,190 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,192 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,193 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,195 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 71
+2025-09-01 21:54:42,195 - src.scraper.quora_scraper - INFO - Saved question_id 71 with 10 answers
+2025-09-01 21:54:49,710 - src.scraper.quora_scraper - INFO - Processing query 164/180: How do I switch from a non-technical background to IT?
+2025-09-01 21:54:49,710 - src.scraper.quora_scraper - INFO - Searching: How do I switch from a non-technical background to IT?
+2025-09-01 21:55:12,527 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:55:22,497 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 84 elements
+2025-09-01 21:55:22,505 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 72
+2025-09-01 21:55:22,506 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 72
+2025-09-01 21:55:22,517 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 72
+2025-09-01 21:55:22,519 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 72
+2025-09-01 21:55:22,521 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 72
+2025-09-01 21:55:22,522 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 72
+2025-09-01 21:55:22,533 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 72
+2025-09-01 21:55:22,547 - src.scraper.quora_scraper - INFO - Saved question_id 72 with 10 answers
+2025-09-01 21:55:30,773 - src.scraper.quora_scraper - INFO - Processing query 165/180: What are the best online learning platforms?
+2025-09-01 21:55:30,773 - src.scraper.quora_scraper - INFO - Searching: What are the best online learning platforms?
+2025-09-01 21:55:53,502 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:56:01,337 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 39 elements
+2025-09-01 21:56:01,342 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 73
+2025-09-01 21:56:01,343 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 73
+2025-09-01 21:56:01,382 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 73
+2025-09-01 21:56:01,382 - src.scraper.quora_scraper - INFO - Saved question_id 73 with 6 answers
+2025-09-01 21:56:12,873 - src.scraper.quora_scraper - INFO - Processing query 166/180: Should I pursue a master's degree abroad?
+2025-09-01 21:56:12,874 - src.scraper.quora_scraper - INFO - Searching: Should I pursue a master's degree abroad?
+2025-09-01 21:56:34,915 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:56:42,932 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 79 elements
+2025-09-01 21:56:42,940 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,941 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,942 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,944 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,946 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,947 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,948 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,950 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,952 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 74
+2025-09-01 21:56:42,966 - src.scraper.quora_scraper - INFO - Saved question_id 74 with 10 answers
+2025-09-01 21:56:49,595 - src.scraper.quora_scraper - INFO - Processing query 167/180: How do I prepare for the GRE?
+2025-09-01 21:56:49,595 - src.scraper.quora_scraper - INFO - Searching: How do I prepare for the GRE?
+2025-09-01 21:57:12,973 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:57:21,138 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 50 elements
+2025-09-01 21:57:21,145 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 75
+2025-09-01 21:57:21,146 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 75
+2025-09-01 21:57:21,148 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 75
+2025-09-01 21:57:21,150 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 75
+2025-09-01 21:57:21,151 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 75
+2025-09-01 21:57:21,152 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 75
+2025-09-01 21:57:21,153 - src.scraper.quora_scraper - INFO - Saved question_id 75 with 6 answers
+2025-09-01 21:57:26,332 - src.scraper.quora_scraper - INFO - Processing query 168/180: How do I prepare for IELTS?
+2025-09-01 21:57:26,332 - src.scraper.quora_scraper - INFO - Searching: How do I prepare for IELTS?
+2025-09-01 21:57:49,630 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:57:57,120 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 21:57:57,125 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 76
+2025-09-01 21:57:57,126 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 76
+2025-09-01 21:57:57,127 - src.scraper.quora_scraper - INFO - Saved question_id 76 with 2 answers
+2025-09-01 21:58:06,386 - src.scraper.quora_scraper - INFO - Processing query 169/180: What are the career options after Computer Engineering?
+2025-09-01 21:58:06,386 - src.scraper.quora_scraper - INFO - Searching: What are the career options after Computer Engineering?
+2025-09-01 21:58:28,666 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:58:35,960 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 42 elements
+2025-09-01 21:58:35,969 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,970 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,971 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,973 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,975 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,976 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,977 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,978 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,979 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,981 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 77
+2025-09-01 21:58:35,981 - src.scraper.quora_scraper - INFO - Saved question_id 77 with 10 answers
+2025-09-01 21:58:43,135 - src.scraper.quora_scraper - INFO - Processing query 170/180: What are the best certifications for cloud computing?
+2025-09-01 21:58:43,136 - src.scraper.quora_scraper - INFO - Searching: What are the best certifications for cloud computing?
+2025-09-01 21:59:06,393 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:59:14,711 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 21:59:14,752 - src.scraper.quora_scraper - INFO - Saved question_id 140 with 3 answers
+2025-09-01 21:59:24,451 - src.scraper.quora_scraper - INFO - Processing query 171/180: What are the best certifications for AI and ML?
+2025-09-01 21:59:24,451 - src.scraper.quora_scraper - INFO - Searching: What are the best certifications for AI and ML?
+2025-09-01 21:59:47,242 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 21:59:56,339 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 21:59:56,354 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 79
+2025-09-01 21:59:56,356 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 79
+2025-09-01 21:59:56,358 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 79
+2025-09-01 21:59:56,359 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 79
+2025-09-01 21:59:56,384 - src.scraper.quora_scraper - INFO - Saved question_id 79 with 7 answers
+2025-09-01 22:00:05,852 - src.scraper.quora_scraper - INFO - Processing query 172/180: Which universities are best for AI research?
+2025-09-01 22:00:05,853 - src.scraper.quora_scraper - INFO - Searching: Which universities are best for AI research?
+2025-09-01 22:00:28,098 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:00:37,194 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 22:00:37,201 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,202 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,204 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,205 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,206 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,208 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,209 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,211 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,211 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,213 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 80
+2025-09-01 22:00:37,214 - src.scraper.quora_scraper - INFO - Saved question_id 80 with 10 answers
+2025-09-01 22:00:48,593 - src.scraper.quora_scraper - INFO - Processing query 173/180: What are the future career opportunities in AI?
+2025-09-01 22:00:48,594 - src.scraper.quora_scraper - INFO - Searching: What are the future career opportunities in AI?
+2025-09-01 22:01:10,939 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:01:18,641 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 81 elements
+2025-09-01 22:01:18,648 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 81
+2025-09-01 22:01:18,650 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 81
+2025-09-01 22:01:18,651 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 81
+2025-09-01 22:01:18,653 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 81
+2025-09-01 22:01:18,654 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 81
+2025-09-01 22:01:18,656 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 81
+2025-09-01 22:01:18,657 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 81
+2025-09-01 22:01:18,692 - src.scraper.quora_scraper - INFO - Saved question_id 81 with 10 answers
+2025-09-01 22:01:28,514 - src.scraper.quora_scraper - INFO - Processing query 174/180: How can I overcome procrastination?
+2025-09-01 22:01:28,515 - src.scraper.quora_scraper - INFO - Searching: How can I overcome procrastination?
+2025-09-01 22:01:49,668 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:01:58,376 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 45 elements
+2025-09-01 22:01:58,383 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 82
+2025-09-01 22:01:58,385 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 82
+2025-09-01 22:01:58,386 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 82
+2025-09-01 22:01:58,387 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 82
+2025-09-01 22:01:58,387 - src.scraper.quora_scraper - INFO - Saved question_id 82 with 4 answers
+2025-09-01 22:02:06,393 - src.scraper.quora_scraper - INFO - Processing query 175/180: What are the best habits for success in life?
+2025-09-01 22:02:06,393 - src.scraper.quora_scraper - INFO - Searching: What are the best habits for success in life?
+2025-09-01 22:02:27,065 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:02:37,435 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 22:02:37,441 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 83
+2025-09-01 22:02:37,442 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 83
+2025-09-01 22:02:37,444 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 83
+2025-09-01 22:02:37,445 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 83
+2025-09-01 22:02:37,447 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 83
+2025-09-01 22:02:37,449 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 83
+2025-09-01 22:02:37,450 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 83
+2025-09-01 22:02:37,451 - src.scraper.quora_scraper - INFO - Saved question_id 83 with 7 answers
+2025-09-01 22:02:46,395 - src.scraper.quora_scraper - INFO - Processing query 176/180: How do I stay motivated while studying?
+2025-09-01 22:02:46,395 - src.scraper.quora_scraper - INFO - Searching: How do I stay motivated while studying?
+2025-09-01 22:03:07,798 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:03:17,495 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 41 elements
+2025-09-01 22:03:17,500 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 84
+2025-09-01 22:03:17,501 - src.scraper.quora_scraper - INFO - Saved question_id 84 with 1 answers
+2025-09-01 22:03:27,063 - src.scraper.quora_scraper - INFO - Processing query 177/180: What are the best time-management techniques?
+2025-09-01 22:03:27,064 - src.scraper.quora_scraper - INFO - Searching: What are the best time-management techniques?
+2025-09-01 22:03:48,214 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:03:56,696 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 38 elements
+2025-09-01 22:03:56,702 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 85
+2025-09-01 22:03:56,704 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 85
+2025-09-01 22:03:56,705 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 85
+2025-09-01 22:03:56,706 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 85
+2025-09-01 22:03:56,707 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 85
+2025-09-01 22:03:56,708 - src.scraper.quora_scraper - INFO - Saved question_id 85 with 5 answers
+2025-09-01 22:04:05,673 - src.scraper.quora_scraper - INFO - Processing query 178/180: How do I build self-discipline?
+2025-09-01 22:04:05,673 - src.scraper.quora_scraper - INFO - Searching: How do I build self-discipline?
+2025-09-01 22:04:27,996 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:04:36,671 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 44 elements
+2025-09-01 22:04:36,679 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 86
+2025-09-01 22:04:36,680 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 86
+2025-09-01 22:04:36,681 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 86
+2025-09-01 22:04:36,684 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 86
+2025-09-01 22:04:36,685 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 86
+2025-09-01 22:04:36,687 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 86
+2025-09-01 22:04:36,687 - src.scraper.quora_scraper - INFO - Saved question_id 86 with 6 answers
+2025-09-01 22:04:45,314 - src.scraper.quora_scraper - INFO - Processing query 179/180: What is the best morning routine for productivity?
+2025-09-01 22:04:45,314 - src.scraper.quora_scraper - INFO - Searching: What is the best morning routine for productivity?
+2025-09-01 22:05:08,222 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:05:16,638 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 84 elements
+2025-09-01 22:05:16,670 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 87
+2025-09-01 22:05:16,672 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 87
+2025-09-01 22:05:16,674 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 87
+2025-09-01 22:05:16,675 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 87
+2025-09-01 22:05:16,677 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 87
+2025-09-01 22:05:16,679 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 87
+2025-09-01 22:05:16,689 - src.scraper.quora_scraper - INFO - Saved question_id 87 with 10 answers
+2025-09-01 22:05:24,106 - src.scraper.quora_scraper - INFO - Processing query 180/180: How can I improve my focus and concentration?
+2025-09-01 22:05:24,106 - src.scraper.quora_scraper - INFO - Searching: How can I improve my focus and concentration?
+2025-09-01 22:05:45,900 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 22:05:53,999 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 48 elements
+2025-09-01 22:05:54,034 - src.scraper.quora_scraper - INFO - Saved question_id 141 with 3 answers
+2025-09-01 22:05:54,034 - scripts.data_pipeline - INFO - Scraping completed: {'successful_scrapes': 179, 'failed_scrapes': 1, 'total_questions': 179, 'total_answers': 1157}
+2025-09-01 22:05:56,790 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 22:05:56,791 - scripts.data_pipeline - INFO - STARTING PREPROCESSING PHASE
+2025-09-01 22:05:56,791 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 22:05:56,791 - src.preprocessing.nlp_pipeline - INFO - Starting full preprocessing pipeline...
+2025-09-01 22:05:58,073 - src.preprocessing.nlp_pipeline - INFO - Preprocessed 141 questions
+2025-09-01 22:06:26,831 - src.preprocessing.nlp_pipeline - INFO - Preprocessed 1110 answers
+2025-09-01 22:06:26,832 - src.preprocessing.nlp_pipeline - INFO - Preprocessing pipeline completed!
+2025-09-01 22:06:26,832 - scripts.data_pipeline - INFO - Preprocessing completed: {'questions_processed': 141, 'answers_processed': 1110}
+2025-09-01 22:06:26,833 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 22:06:26,833 - scripts.data_pipeline - INFO - STARTING EMBEDDING GENERATION PHASE
+2025-09-01 22:06:26,833 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 22:06:26,833 - scripts.data_pipeline - INFO - Generating question embeddings...
+2025-09-01 22:06:27,993 - src.embeddings.embedding_generator - INFO - Generating embeddings for 141 texts...
+2025-09-01 22:06:30,105 - scripts.data_pipeline - INFO - Generating answer embeddings...
+2025-09-01 22:06:44,144 - src.embeddings.embedding_generator - INFO - Generating embeddings for 1110 texts...
+2025-09-01 22:07:14,221 - scripts.data_pipeline - INFO - Embedding generation completed: {'questions_embedded': 141, 'answers_embedded': 1110}
+2025-09-01 22:07:14,222 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 22:07:14,222 - scripts.data_pipeline - INFO - STARTING INDEX BUILDING PHASE
+2025-09-01 22:07:14,223 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 22:07:14,241 - src.embeddings.faiss_manager - INFO - Built question index with 141 vectors
+2025-09-01 22:07:14,245 - src.embeddings.faiss_manager - INFO - Built answer index with 1110 vectors
+2025-09-01 22:07:14,247 - src.embeddings.faiss_manager - INFO - Saved question index to data/databases/question_index.faiss
+2025-09-01 22:07:14,250 - src.embeddings.faiss_manager - INFO - Saved answer index to data/databases/answer_index.faiss
+2025-09-01 22:07:14,251 - scripts.data_pipeline - INFO - Index building completed: {'question_index_built': True, 'question_index_size': 141, 'answer_index_built': True, 'answer_index_size': 1110}
+2025-09-01 22:07:14,254 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 22:07:14,254 - scripts.data_pipeline - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2025-09-01 22:07:14,254 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 22:07:14,255 - scripts.data_pipeline - INFO - Final Stats: {'total_questions': 141, 'total_answers': 1110, 'question_embeddings': 141, 'answer_embeddings': 1110, 'avg_answers_per_question': 7.87}
+2025-09-01 22:07:14,270 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 22:07:14,270 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 22:07:14,273 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 22:07:18,018 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 22:07:18,663 - src.embeddings.faiss_manager - INFO - Loaded question index from data/databases/question_index.faiss
+2025-09-01 22:07:18,687 - src.embeddings.faiss_manager - INFO - Loaded answer index from data/databases/answer_index.faiss

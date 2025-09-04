@@ -1,0 +1,21 @@
+2025-09-01 15:00:12,678 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 15:00:12,679 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 15:00:12,683 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 15:00:16,267 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 15:00:16,268 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 15:00:16,268 - scripts.data_pipeline - INFO - Processing 13 queries
+2025-09-01 15:00:16,270 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:00:16,270 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 15:00:16,270 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:00:16,274 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 15:00:17,412 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 15:00:17,978 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 15:00:18,498 - WDM - INFO - Driver [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-01 15:00:19,780 - src.scraper.quora_scraper - INFO - Processing query 1/13: What is machine learning and how does it work
+2025-09-01 15:00:19,781 - src.scraper.quora_scraper - INFO - Searching: What is machine learning and how does it work
+2025-09-01 15:00:39,077 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:00:51,562 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 84 elements
+2025-09-01 15:00:51,570 - src.scraper.quora_scraper - INFO - Extracted 6 answers for: How does Machine Learning work, and what is its process?...
+2025-09-01 15:00:51,572 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:00:51,580 - src.scraper.quora_scraper - ERROR - Error saving scraped data: name 'sqlite3' is not defined
+2025-09-01 15:00:55,182 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/c2c484f9e80c585fb7630f8dda2891bb

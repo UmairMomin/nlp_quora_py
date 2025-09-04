@@ -1,0 +1,132 @@
+2025-09-01 15:13:04,887 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 15:13:04,892 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 15:13:04,897 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 15:13:08,797 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 15:13:08,797 - scripts.data_pipeline - INFO - STARTING COMPLETE DATA PIPELINE
+2025-09-01 15:13:08,798 - scripts.data_pipeline - INFO - Processing 13 queries
+2025-09-01 15:13:08,799 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:13:08,799 - scripts.data_pipeline - INFO - STARTING SCRAPING PHASE
+2025-09-01 15:13:08,799 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:13:08,804 - WDM - INFO - ====== WebDriver manager ======
+2025-09-01 15:13:10,160 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 15:13:10,763 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-01 15:13:11,381 - WDM - INFO - Driver [C:\Users\umair\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-01 15:13:12,722 - src.scraper.quora_scraper - INFO - Processing query 1/13: What is machine learning and how does it work
+2025-09-01 15:13:12,722 - src.scraper.quora_scraper - INFO - Searching: What is machine learning and how does it work
+2025-09-01 15:13:32,864 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:13:45,461 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 81 elements
+2025-09-01 15:13:45,469 - src.scraper.quora_scraper - INFO - Extracted 6 answers for: How does Machine Learning work, and what is its process?...
+2025-09-01 15:13:45,471 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:13:45,475 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:13:45,476 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:13:45,478 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:13:45,479 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:13:45,480 - src.database.sqlite_manager - INFO - Duplicate answer skipped for question_id 1
+2025-09-01 15:13:45,481 - src.scraper.quora_scraper - INFO - Successfully saved question_id 1 with 6 answers
+2025-09-01 15:13:51,481 - src.scraper.quora_scraper - INFO - Processing query 2/13: Best programming languages for beginners 2024
+2025-09-01 15:13:51,481 - src.scraper.quora_scraper - INFO - Searching: Best programming languages for beginners 2024
+2025-09-01 15:14:11,843 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:14:24,860 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 123 elements
+2025-09-01 15:14:24,869 - src.scraper.quora_scraper - INFO - Extracted 27 answers for: Can you recommend the top programming languages to learn in ...
+2025-09-01 15:14:25,005 - src.scraper.quora_scraper - INFO - Successfully saved question_id 2 with 10 answers
+2025-09-01 15:14:31,015 - src.scraper.quora_scraper - INFO - Processing query 3/13: How does artificial intelligence impact jobs
+2025-09-01 15:14:31,036 - src.scraper.quora_scraper - INFO - Searching: How does artificial intelligence impact jobs
+2025-09-01 15:14:51,382 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:15:04,798 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 236 elements
+2025-09-01 15:15:04,821 - src.scraper.quora_scraper - INFO - Extracted 68 answers for: How will AI impact jobs over the next 5–10 years?...
+2025-09-01 15:15:04,955 - src.scraper.quora_scraper - INFO - Successfully saved question_id 3 with 10 answers
+2025-09-01 15:15:10,957 - src.scraper.quora_scraper - INFO - Processing query 4/13: What is the difference between Python and Java
+2025-09-01 15:15:10,957 - src.scraper.quora_scraper - INFO - Searching: What is the difference between Python and Java
+2025-09-01 15:15:29,247 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:15:44,841 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 455 elements
+2025-09-01 15:15:44,890 - src.scraper.quora_scraper - INFO - Extracted 70 answers for: Between Java and Python, which one is better to learn first ...
+2025-09-01 15:15:45,068 - src.scraper.quora_scraper - INFO - Successfully saved question_id 4 with 10 answers
+2025-09-01 15:15:51,074 - src.scraper.quora_scraper - INFO - Processing query 5/13: How does quantum computing work
+2025-09-01 15:15:51,075 - src.scraper.quora_scraper - INFO - Searching: How does quantum computing work
+2025-09-01 15:16:09,112 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:16:22,270 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 202 elements
+2025-09-01 15:16:22,289 - src.scraper.quora_scraper - INFO - Extracted 50 answers for: How do quantum computers work, and what are their practical ...
+2025-09-01 15:16:22,411 - src.scraper.quora_scraper - INFO - Successfully saved question_id 5 with 10 answers
+2025-09-01 15:16:28,412 - src.scraper.quora_scraper - INFO - Processing query 6/13: What causes climate change
+2025-09-01 15:16:28,412 - src.scraper.quora_scraper - INFO - Searching: What causes climate change
+2025-09-01 15:16:46,270 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:16:59,784 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 288 elements
+2025-09-01 15:16:59,811 - src.scraper.quora_scraper - INFO - Extracted 71 answers for: What are the main causes of climate change, and how do they ...
+2025-09-01 15:16:59,927 - src.scraper.quora_scraper - INFO - Successfully saved question_id 6 with 10 answers
+2025-09-01 15:17:05,927 - src.scraper.quora_scraper - INFO - Processing query 7/13: How do vaccines work in the human body
+2025-09-01 15:17:05,928 - src.scraper.quora_scraper - INFO - Searching: How do vaccines work in the human body
+2025-09-01 15:17:24,159 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:17:37,263 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 213 elements
+2025-09-01 15:17:37,279 - src.scraper.quora_scraper - INFO - Extracted 52 answers for: How do vaccines work, and why are they considered such an im...
+2025-09-01 15:17:37,391 - src.scraper.quora_scraper - INFO - Successfully saved question_id 7 with 10 answers
+2025-09-01 15:17:43,392 - src.scraper.quora_scraper - INFO - Processing query 8/13: How to prepare for software engineering interviews
+2025-09-01 15:17:43,392 - src.scraper.quora_scraper - INFO - Searching: How to prepare for software engineering interviews
+2025-09-01 15:18:01,346 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:18:14,644 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 134 elements
+2025-09-01 15:18:14,658 - src.scraper.quora_scraper - INFO - Extracted 16 answers for: How did you prepare for your software engineering technical ...
+2025-09-01 15:18:14,792 - src.scraper.quora_scraper - INFO - Successfully saved question_id 8 with 10 answers
+2025-09-01 15:18:20,793 - src.scraper.quora_scraper - INFO - Processing query 9/13: Best universities for computer science
+2025-09-01 15:18:20,793 - src.scraper.quora_scraper - INFO - Searching: Best universities for computer science
+2025-09-01 15:18:39,264 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:18:52,104 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 106 elements
+2025-09-01 15:18:52,112 - src.scraper.quora_scraper - INFO - Extracted 20 answers for: What are the best universities abroad for computer science?...
+2025-09-01 15:18:52,287 - src.scraper.quora_scraper - INFO - Successfully saved question_id 9 with 10 answers
+2025-09-01 15:18:58,287 - src.scraper.quora_scraper - INFO - Processing query 10/13: How to transition into data science career
+2025-09-01 15:18:58,288 - src.scraper.quora_scraper - INFO - Searching: How to transition into data science career
+2025-09-01 15:19:16,494 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:19:29,222 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 112 elements
+2025-09-01 15:19:29,231 - src.scraper.quora_scraper - INFO - Extracted 13 answers for: Is it easy to switch careers into data science after 5 years...
+2025-09-01 15:19:29,351 - src.scraper.quora_scraper - INFO - Successfully saved question_id 10 with 10 answers
+2025-09-01 15:19:35,352 - src.scraper.quora_scraper - INFO - Processing query 11/13: What are the benefits of meditation
+2025-09-01 15:19:35,352 - src.scraper.quora_scraper - INFO - Searching: What are the benefits of meditation
+2025-09-01 15:19:54,346 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:20:12,694 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 407 elements
+2025-09-01 15:20:12,751 - src.scraper.quora_scraper - INFO - Extracted 48 answers for: What are the benefits of meditation? How do you meditate?...
+2025-09-01 15:20:12,886 - src.scraper.quora_scraper - INFO - Successfully saved question_id 11 with 10 answers
+2025-09-01 15:20:18,887 - src.scraper.quora_scraper - INFO - Processing query 12/13: How to start investing in stock market
+2025-09-01 15:20:18,887 - src.scraper.quora_scraper - INFO - Searching: How to start investing in stock market
+2025-09-01 15:20:37,910 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:20:54,050 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 542 elements
+2025-09-01 15:20:54,088 - src.scraper.quora_scraper - INFO - Extracted 72 answers for: How can one start investing in stocks in India?...
+2025-09-01 15:20:54,194 - src.scraper.quora_scraper - INFO - Successfully saved question_id 12 with 10 answers
+2025-09-01 15:21:00,195 - src.scraper.quora_scraper - INFO - Processing query 13/13: What makes a good leader
+2025-09-01 15:21:00,195 - src.scraper.quora_scraper - INFO - Searching: What makes a good leader
+2025-09-01 15:21:18,272 - src.scraper.quora_scraper - INFO - Loading more answers...
+2025-09-01 15:21:31,225 - src.scraper.quora_scraper - INFO - Trying selector 'div[class*='answer']': found 111 elements
+2025-09-01 15:21:31,237 - src.scraper.quora_scraper - INFO - Extracted 26 answers for: What qualities make someone a great leader? Can you give any...
+2025-09-01 15:21:31,367 - src.scraper.quora_scraper - INFO - Successfully saved question_id 13 with 10 answers
+2025-09-01 15:21:31,367 - scripts.data_pipeline - INFO - Scraping completed: {'successful_scrapes': 13, 'failed_scrapes': 0, 'total_questions': 13, 'total_answers': 126}
+2025-09-01 15:21:33,986 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:21:33,987 - scripts.data_pipeline - INFO - STARTING PREPROCESSING PHASE
+2025-09-01 15:21:33,987 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:21:33,987 - src.preprocessing.nlp_pipeline - INFO - Starting full preprocessing pipeline...
+2025-09-01 15:21:34,153 - src.preprocessing.nlp_pipeline - INFO - Preprocessed 13 questions
+2025-09-01 15:21:37,931 - src.preprocessing.nlp_pipeline - INFO - Preprocessed 126 answers
+2025-09-01 15:21:37,932 - src.preprocessing.nlp_pipeline - INFO - Preprocessing pipeline completed!
+2025-09-01 15:21:37,932 - scripts.data_pipeline - INFO - Preprocessing completed: {'questions_processed': 13, 'answers_processed': 126}
+2025-09-01 15:21:37,933 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:21:37,933 - scripts.data_pipeline - INFO - STARTING EMBEDDING GENERATION PHASE
+2025-09-01 15:21:37,933 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:21:37,933 - scripts.data_pipeline - INFO - Generating question embeddings...
+2025-09-01 15:21:38,066 - src.embeddings.embedding_generator - INFO - Generating embeddings for 13 texts...
+2025-09-01 15:21:38,457 - scripts.data_pipeline - INFO - Generating answer embeddings...
+2025-09-01 15:21:40,265 - src.embeddings.embedding_generator - INFO - Generating embeddings for 126 texts...
+2025-09-01 15:21:45,947 - scripts.data_pipeline - INFO - Embedding generation completed: {'questions_embedded': 13, 'answers_embedded': 126}
+2025-09-01 15:21:45,947 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:21:45,947 - scripts.data_pipeline - INFO - STARTING INDEX BUILDING PHASE
+2025-09-01 15:21:45,948 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:21:45,952 - src.embeddings.faiss_manager - INFO - Built question index with 13 vectors
+2025-09-01 15:21:45,953 - src.embeddings.faiss_manager - INFO - Built answer index with 126 vectors
+2025-09-01 15:21:45,955 - src.embeddings.faiss_manager - INFO - Saved question index to data/databases/question_index.faiss
+2025-09-01 15:21:45,957 - src.embeddings.faiss_manager - INFO - Saved answer index to data/databases/answer_index.faiss
+2025-09-01 15:21:45,958 - scripts.data_pipeline - INFO - Index building completed: {'question_index_built': True, 'question_index_size': 13, 'answer_index_built': True, 'answer_index_size': 126}
+2025-09-01 15:21:45,960 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:21:45,961 - scripts.data_pipeline - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2025-09-01 15:21:45,961 - scripts.data_pipeline - INFO - ==================================================
+2025-09-01 15:21:45,961 - scripts.data_pipeline - INFO - Final Stats: {'total_questions': 13, 'total_answers': 126, 'question_embeddings': 13, 'answer_embeddings': 126, 'avg_answers_per_question': 9.69}
+2025-09-01 15:21:45,967 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-01 15:21:45,968 - src.embeddings.embedding_generator - INFO - Loading model: all-MiniLM-L6-v2
+2025-09-01 15:21:45,970 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-01 15:21:49,433 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 384
+2025-09-01 15:21:50,088 - src.embeddings.faiss_manager - INFO - Loaded question index from data/databases/question_index.faiss
+2025-09-01 15:21:50,107 - src.embeddings.faiss_manager - INFO - Loaded answer index from data/databases/answer_index.faiss

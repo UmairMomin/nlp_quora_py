@@ -1,0 +1,22 @@
+database:
+  sqlite_path: "data/databases/quora_data.db"
+  backup_csv_path: "data/raw/quora_backup.csv"
+
+embeddings:
+  model_name: "all-MiniLM-L6-v2"  # Options: all-MiniLM-L6-v2, all-mpnet-base-v2, paraphrase-MiniLM-L6-v2
+  batch_size: 32
+  index_type: "flat"  # Options: flat, ivf
+
+scraping:
+  delay_between_queries: 6
+  max_answers_per_question: 10
+  headless_mode: false
+  max_retries: 3
+
+search:
+  default_top_k: 5
+  similarity_threshold: 0.3
+
+logging:
+  level: "INFO"
+  log_dir: "logs/"
