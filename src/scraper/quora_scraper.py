@@ -214,18 +214,54 @@ class EnhancedQuoraScraper:
     # -------------------- QUALITY & DATABASE --------------------
     def estimate_answer_quality(self, answer_data: Dict) -> float:
         quality_score = 0.0
-        length = len(answer_data['text'])
+        text = answer_data['text']
+        length = len(text)
+        
+        # Length scoring (more sophisticated)
+        if length > 50:  # Minimum meaningful length
+            quality_score += 0.1
         if length > 200:
-            quality_score += 0.3
+            quality_score += 0.2
         if length > 500:
             quality_score += 0.2
+        if length > 1000:
+            quality_score += 0.1
+        
+        # Content quality indicators
         indicators = answer_data.get('quality_indicators', {})
+        
+        # Upvotes scoring (more nuanced)
         upvotes = indicators.get('upvotes', 0)
         if upvotes > 0:
-            quality_score += min(0.4, upvotes * 0.05)
+            quality_score += min(0.3, upvotes * 0.02)  # Reduced impact
+        
+        # Credentials bonus
         if indicators.get('has_credentials', False):
+            quality_score += 0.15
+        
+        # Text quality indicators
+        # Check for structured content (numbered lists, bullet points)
+        if any(pattern in text for pattern in ['1.', '2.', '3.', '•', '-', '*']):
             quality_score += 0.1
-        return min(1.0, quality_score)
+        
+        # Check for examples or explanations
+        if any(word in text.lower() for word in ['example', 'for instance', 'such as', 'like', 'because', 'therefore']):
+            quality_score += 0.1
+        
+        # Check for completeness (question answering)
+        if any(word in text.lower() for word in ['yes', 'no', 'definitely', 'certainly', 'absolutely']):
+            quality_score += 0.05
+        
+        # Penalize very short or incomplete answers
+        if length < 100:
+            quality_score *= 0.7
+        
+        # Penalize answers that look like navigation text
+        nav_indicators = ['upvote', 'share', 'comment', 'follow', 'more answers', 'see more']
+        if any(indicator in text.lower() for indicator in nav_indicators):
+            quality_score *= 0.3
+        
+        return min(1.0, max(0.0, quality_score))
 
     def save_scraped_data(self, scraped_data: Dict, topic_category: str = None) -> bool:
         try:

@@ -175,11 +175,22 @@ class TextCleaner:
     
     def preprocess_for_embeddings(self, text: str) -> str:
         """Preprocess text specifically for embedding generation"""
+        if not text or len(text.strip()) < 3:
+            return ""
+        
         # Light cleaning - preserve semantic meaning
         text = self.basic_clean(text)
         
-        # Remove very short sentences (likely noise)
-        sentences = self.extract_sentences(text)
-        meaningful_sentences = [s for s in sentences if len(s.split()) > 3]
+        # If text is too short after cleaning, return original
+        if len(text.strip()) < 3:
+            return text.strip()
         
-        return ' '.join(meaningful_sentences)
+        # Remove very short sentences (likely noise) but keep the text
+        sentences = self.extract_sentences(text)
+        if sentences:
+            meaningful_sentences = [s for s in sentences if len(s.split()) > 2]
+            if meaningful_sentences:
+                return ' '.join(meaningful_sentences)
+        
+        # If no meaningful sentences found, return cleaned text
+        return text.strip()
