@@ -1,0 +1,9 @@
+2025-09-06 19:41:50,864 - src.embeddings.embedding_generator - INFO - Using device: cpu
+2025-09-06 19:41:50,864 - src.embeddings.embedding_generator - INFO - Loading model: all-mpnet-base-v2
+2025-09-06 19:41:50,868 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-09-06 19:41:56,282 - src.embeddings.embedding_generator - INFO - Model loaded successfully. Embedding dimension: 768
+2025-09-06 19:41:56,283 - scripts.data_pipeline - INFO - ==================================================
+2025-09-06 19:41:56,283 - scripts.data_pipeline - INFO - STARTING EMBEDDING GENERATION PHASE
+2025-09-06 19:41:56,283 - scripts.data_pipeline - INFO - ==================================================
+2025-09-06 19:41:56,284 - scripts.data_pipeline - INFO - Generating question embeddings...
+2025-09-06 19:41:57,620 - src.embeddings.embedding_generator - INFO - Generating embeddings for 141 texts...
