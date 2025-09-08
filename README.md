@@ -6,12 +6,6 @@ A comprehensive system that automates the retrieval and semantic analysis of que
 
 ## 🎯 Project Overview
 
-### Team Members:
-- **Umair Momin** (223A1131)
-- **Fatima Mulla** (223A1132)  
-- **Mithrajeeth Yadavar** (223A1138)
-- **Class:** BE CE-D
-
 ### Key Features:
 - **Semantic Question Matching**: Find semantically similar questions using sentence embeddings
 - **Answer Quality Ranking**: Intelligent ranking based on multiple quality indicators
