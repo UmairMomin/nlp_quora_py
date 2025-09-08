@@ -29,11 +29,9 @@ quora_nlp_project/
 │   ├── database/         # SQLite management
 │   ├── preprocessing/    # Text cleaning & NLP
 │   ├── embeddings/       # Embedding generation & FAISS
-│   └── api/             # Query interface
 ├── scripts/             # Utility scripts
 ├── ui/                  # Streamlit interface
 ├── data/               # Data storage
-├── notebooks/          # Analysis notebooks
 └── logs/               # System logs
 ```
 
