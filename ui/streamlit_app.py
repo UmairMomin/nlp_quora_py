@@ -420,13 +420,6 @@ def about_page():
     - **Database**: SQLite
     - **Web Scraping**: Selenium, BeautifulSoup
     - **UI**: Streamlit
-    
-    ### 👥 Team:
-    - **Umair Momin** (223A1131)
-    - **Fatima Mulla** (223A1132)  
-    - **Mithrajeeth Yadavar** (223A1138)
-    
-    **Class:** BE CE-D
     """)
     
     # Show current system status
